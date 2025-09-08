@@ -1,0 +1,52 @@
+[
+  {
+    "id": "chunk_6db0d508_0_1753148465850",
+    "content": "HEADER_MARKER Bài viết mẫu về công nghệ AI HEADER_END\n\nHEADER_MARKER Giới thiệu về Trí tuệ nhân tạo HEADER_END\n\nTrí tuệ nhân tạo (AI) đang trở thành một trong những công nghệ quan trọng nhất của thế kỷ 21. AI có khả năng thay đổi cách chúng ta làm việc, học tập và sống. HEADER_MARKER Các ứng dụng của AI HEADER_END\n\nHEADER_MARKER Trong y tế HEADER_END\nAI được sử dụng để chẩn đoán bệnh, phát triển thuốc và hỗ trợ phẫu thuật. Các thuật toán machine learning có thể phân tích hình ảnh y khoa với độ chính xác cao. HEADER_MARKER Trong giáo dục HEADER_END\nHệ thống học tập thích ứng có thể cá nhân hóa trải nghiệm học tập cho từng học sinh. Chatbot giáo dục giúp trả lời câu hỏi và hỗ trợ học tập 24/7. HEADER_MARKER Trong giao thông HEADER_END\nXe tự lái sử dụng AI để nhận diện đường xá, tránh vật cản và đưa ra quyết định lái xe. Hệ thống quản lý giao thông thông minh tối ưu hóa luồng xe cộ.",
+    "metadata": {
+      "chunk_index": 0,
+      "char_count": 892,
+      "word_count": 177,
+      "keywords": [
+        "header_marker",
+        "header_end",
+        "học_tập",
+        "công_nghệ",
+        "nhân_tạo",
+        "sử_dụng",
+        "hỗ_trợ",
+        "có_thể",
+        "giáo_dục",
+        "hệ_thống"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.28944478224519266,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  },
+  {
+    "id": "chunk_b670d228_1_1753148465852",
+    "content": "HEADER_MARKER Thách thức và tương lai HEADER_END\n\nMặc dù AI mang lại nhiều lợi ích, nhưng cũng đặt ra những thách thức về đạo đức, quyền riêng tư và việc làm. Chúng ta cần phát triển AI một cách có trách nhiệm để đảm bảo lợi ích cho toàn xã hội. Tương lai của AI hứa hẹn sẽ mang lại những đột phá mới trong khoa học, công nghệ và cuộc sống hàng ngày.",
+    "metadata": {
+      "chunk_index": 1,
+      "char_count": 350,
+      "word_count": 74,
+      "keywords": [
+        "thách_thức",
+        "mang",
+        "lợi_ích",
+        "header_marker",
+        "tương_lai_header_end",
+        "mặc_dù",
+        "nhưng",
+        "đặt",
+        "đạo_đức",
+        "quyền"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.2927027027027027,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  }
+]

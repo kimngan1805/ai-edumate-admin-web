@@ -1,0 +1,170 @@
+{
+  "status": "completed",
+  "timestamp": "2025-07-18 14:56:16",
+  "total_lessons_crawled": 20,
+  "successful_downloads": 12,
+  "failed_downloads": 8,
+  "download_results": [
+    {
+      "status": "success",
+      "title": "Xem chi tiết >>",
+      "images_count": 4,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/Xem_chi_tiết.pdf",
+      "lesson_number": 1,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=18821"
+    },
+    {
+      "status": "error",
+      "message": "No images found",
+      "pdf_path": null,
+      "lesson_number": 2,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=18822"
+    },
+    {
+      "status": "success",
+      "title": "Xem chi tiết >>",
+      "images_count": 26,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/Xem_chi_tiết.pdf",
+      "lesson_number": 3,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=10960"
+    },
+    {
+      "status": "success",
+      "title": "Đọc online",
+      "images_count": 31,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/Đọc_online.pdf",
+      "lesson_number": 4,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=16321"
+    },
+    {
+      "status": "error",
+      "message": "No images found",
+      "pdf_path": null,
+      "lesson_number": 5,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=422"
+    },
+    {
+      "status": "success",
+      "title": "Xem chi tiết >>",
+      "images_count": 6,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/Xem_chi_tiết.pdf",
+      "lesson_number": 6,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=18832"
+    },
+    {
+      "status": "success",
+      "title": "Xem chi tiết >>",
+      "images_count": 22,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/Xem_chi_tiết.pdf",
+      "lesson_number": 7,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=16339"
+    },
+    {
+      "status": "error",
+      "message": "No images found",
+      "pdf_path": null,
+      "lesson_number": 8,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=426"
+    },
+    {
+      "status": "error",
+      "message": "No images found",
+      "pdf_path": null,
+      "lesson_number": 9,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=1242"
+    },
+    {
+      "status": "success",
+      "title": "Tổng hợp công thức Vật lí lớp 10",
+      "images_count": 16,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/Tổng_hợp_công_thức_Vật_lí_lớp_10.pdf",
+      "lesson_number": 10,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=86"
+    },
+    {
+      "status": "success",
+      "title": "Xem chi tiết >>",
+      "images_count": 8,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/Xem_chi_tiết.pdf",
+      "lesson_number": 11,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=18820"
+    },
+    {
+      "status": "success",
+      "title": "Xem chi tiết >>",
+      "images_count": 2,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/Xem_chi_tiết.pdf",
+      "lesson_number": 12,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=88"
+    },
+    {
+      "status": "success",
+      "title": "Thứ Tự Thực Hiện Các Phép Tính",
+      "images_count": 7,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/Thứ_Tự_Thực_Hiện_Các_Phép_Tính.pdf",
+      "lesson_number": 13,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=18830"
+    },
+    {
+      "status": "error",
+      "message": "No images found",
+      "pdf_path": null,
+      "lesson_number": 14,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=18826"
+    },
+    {
+      "status": "error",
+      "message": "No images found",
+      "pdf_path": null,
+      "lesson_number": 15,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=420"
+    },
+    {
+      "status": "error",
+      "message": "No images found",
+      "pdf_path": null,
+      "lesson_number": 16,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=18823"
+    },
+    {
+      "status": "error",
+      "message": "No images found",
+      "pdf_path": null,
+      "lesson_number": 17,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=18822"
+    },
+    {
+      "status": "success",
+      "title": "Xem chi tiết >>",
+      "images_count": 4,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/Xem_chi_tiết.pdf",
+      "lesson_number": 18,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=292"
+    },
+    {
+      "status": "success",
+      "title": "Tóm tắt kiến thức Đại số - Giải tích lớp 11",
+      "images_count": 22,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/Tóm_tắt_kiến_thức_Đại_số_-_Giải_tích_lớp_11.pdf",
+      "lesson_number": 19,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=2508"
+    },
+    {
+      "status": "success",
+      "title": "Đọc online",
+      "images_count": 14,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/Đọc_online.pdf",
+      "lesson_number": 20,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=4616"
+    }
+  ],
+  "download_folders": {
+    "base_output_dir": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls",
+    "common_pdfs_dir": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai",
+    "current_session_images_dir": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/crawl_session_20250718_145335/images"
+  },
+  "minio_upload_summary": {
+    "status": "skipped",
+    "reason": "PDF processor not initialized"
+  }
+}

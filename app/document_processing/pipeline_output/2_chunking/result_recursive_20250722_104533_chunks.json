@@ -1,0 +1,52 @@
+[
+  {
+    "id": "chunk_d79a66c3_0_1753155933226",
+    "content": "Bài thi môn: Toán 6\nThời gian làm bài: 60 phút\n(Đề thi số 1)\nA. Phần trắc nghiệm: (5 điểm). Khoanh tròn vào chữ đặt trước câu trả lời đúng.\nCâu 1: Kết quả của phép tính  là:\nCâu 2: Cho 125dam2 =. km2. Số thích hợp điền vào chỗ chấm là:\nA. 0,125\nB. 0,0125\nC. 0,1250\nD. 0,1025\nCâu 3: Trên bản đồ tỉ lệ 1: 10000 có vẽ một mảnh đất hình chữ nhật với chiều dài 5cm; chiều rộng 3cm. Như vậy, mảnh đất đó có diện tích là:\nA. 15m2\nB. 1500m2\nC. 150m2\nD. 160m2\nCâu 4: Một hình hộp chữ nhật có thể tích 216cm3. Nếu tăng ba kích thước của hình hộp chữ nhật lên 2 lần, thì thể tích của hình hộp chữ nhật mới là:\nA. 864cm3\nB. 1296cm3\nC. 1728cm3\nD. 1944cm3\nCâu 5: Tam giác ABC, kéo dài BC thêm một đoạn CD = 12BC thì diện tích tam giác ABC tăng thêm 20dm2. Diện tích tam giác ABC là:\nA. 10dm2\nB. 20dm2\nC. 30dm2",
+    "metadata": {
+      "chunk_index": 0,
+      "char_count": 795,
+      "word_count": 179,
+      "keywords": [
+        "câu",
+        "chữ",
+        "diện_tích",
+        "hình_hộp",
+        "nhật",
+        "tam_giác",
+        "abc",
+        "bài",
+        "thi",
+        "vào"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 0.8,
+      "language_confidence": 0.19524682899406204,
+      "chunking_strategy": "recursive_vietnamese_optimized"
+    }
+  },
+  {
+    "id": "chunk_de0e110e_1_1753155933228",
+    "content": "Câu 5: Tam giác ABC, kéo dài BC thêm một đoạn CD = 12BC thì diện tích tam giác ABC tăng thêm 20dm2. Diện tích tam giác ABC là:\nA. 10dm2\nB. 20dm2\nC. 30dm2\nD. 40dm2dm2\nC.",
+    "metadata": {
+      "chunk_index": 1,
+      "char_count": 168,
+      "word_count": 38,
+      "keywords": [
+        "tam_giác",
+        "abc",
+        "thêm",
+        "diện_tích",
+        "20dm2",
+        "câu",
+        "kéo_dài",
+        "đoạn",
+        "12bc",
+        "tăng"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.19823156489823154,
+      "chunking_strategy": "recursive_vietnamese_optimized"
+    }
+  }
+]

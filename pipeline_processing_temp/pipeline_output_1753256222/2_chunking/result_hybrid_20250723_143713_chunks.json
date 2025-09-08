@@ -1,0 +1,827 @@
+[
+  {
+    "id": "chunk_384bcca3_0_1753256233177",
+    "content": "HEADER_MARKER Page 1 HEADER_END\n\nTrường THPT Tam Nông Giáo án Địa lý 10 - CTST\nGV: Võ Thị Rô Sa Trang 1\nCHƯƠNG 5. THỦY QUYỂN\nBÀI 12: THỦY QUYỂN, NƯỚC TRÊN LỤC ĐỊA\n( tiết 22,23)\nI. MỤC TIÊU\nNUMLIST_MARKER Về kiến thức NUMLIST_END\nLIST_MARKER Nêu được khái niệm thủy quyển. LIST_END\nLIST_MARKER Phân tích được các nhân tố ảnh hưởng tới chế độ nước sông. LIST_END\nLIST_MARKER Trình bày được chế độ nước của một con sông cụ thể. LIST_END\nLIST_MARKER Phân biệt được các loại hồ theo nguồn gốc hình thành. LIST_END\nLIST_MARKER Trình bày được đặc điểm chủ yếu của nước băng tuyết và nước ngầm. LIST_END\nLIST_MARKER Vẽ được sơ đồ, phân tích được hình vẽ về thủy quyển. LIST_END\nLIST_MARKER Nêu được các giải pháp bảo vệ nguồn nước ngọt. LIST_END\nNUMLIST_MARKER Về kĩ năng NUMLIST_END\nLIST_MARKER Năng lực chung: năng lực tự học, giao tiếp và hợp tác, giiar quyết vấn đề và sáng tạo, sử dụng LIST_END\ncông nghệ thông tin.",
+    "metadata": {
+      "chunk_index": 0,
+      "char_count": 912,
+      "word_count": 169,
+      "keywords": [
+        "list_marker",
+        "list_end",
+        "thủy_quyển",
+        "nước",
+        "numlist_marker",
+        "numlist_end",
+        "nêu",
+        "phân_tích",
+        "chế_độ",
+        "sông"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.26499857261496934,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  },
+  {
+    "id": "chunk_a0d20f95_1_1753256233181",
+    "content": "LIST_MARKER Năng lực chuyên biệt: năng lực nhận thức khoa học Địa lí, tìm hiểu và sử dụng công cụ địa lí, LIST_END\nvận dụng kiến thức và kỉ năng địa lí đã học. NUMLIST_MARKER Về phẩm chất NUMLIST_END\nLIST_MARKER Tự giác tham gia và đóng góp tích cực trong các hoạt động nhóm, đấu tranh với những hành vi LIST_END\nthiếu tủng thực trong học tập và trong cuộc sống. II. THIẾT BỊ DẠY HỌC VÀ HỌC LIỆU\n1.Thiết bị. LIST_MARKER Máy tính, tivi. LIST_END\nLIST_MARKER Các phiếu học tập. LIST_END\nNUMLIST_MARKER Học liệu. NUMLIST_END\nLIST_MARKER Giấy note, Sách giáo khoa. LIST_END\nLIST_MARKER Tài liệu tham khảo có liên quan đến bài học. LIST_END\nIII.",
+    "metadata": {
+      "chunk_index": 1,
+      "char_count": 640,
+      "word_count": 116,
+      "keywords": [
+        "list_marker",
+        "list_end",
+        "địa_lí",
+        "năng_lực",
+        "học",
+        "numlist_marker",
+        "numlist_end",
+        "học_tập",
+        "thiết_bị",
+        "chuyên_biệt"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.26370689655172413,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  },
+  {
+    "id": "chunk_d443051f_2_1753256233184",
+    "content": "TIẾN TRÌNH DẠY HỌC\nNUMLIST_MARKER Hoạt động 1: Khởi động. NUMLIST_END\na. Mục tiêu. LIST_MARKER Dẫn dắt bài học mới về thủy quyển. LIST_END\nb. Nội dung. LIST_MARKER Gv cho hs xem một đoạn video về ô nhễm nước: LIST_END\nhttps://www.youtube.com/watch?v=HMigBatrXcE\nc. Sản phẩm. LIST_MARKER Hs xác định được những vấn đề hiện nay của thủy quyển. LIST_END\nd.",
+    "metadata": {
+      "chunk_index": 2,
+      "char_count": 353,
+      "word_count": 59,
+      "keywords": [
+        "list_marker",
+        "list_end",
+        "thủy_quyển",
+        "tiến_trình",
+        "dạy_học",
+        "numlist_marker",
+        "hoạt_động",
+        "khởi_động",
+        "numlist_end",
+        "mục_tiêu"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.26165554328515866,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  },
+  {
+    "id": "chunk_fc06566f_3_1753256233190",
+    "content": "Tổ chức thực hiện\nLIST_MARKER Bước 1: Gv trình chiếu video về ô nhiễm nguồn nước hiện nay, yêu cầu hs sau khi xem video LIST_END\ntrả lời câu hỏi “Em hãy cho biết hiện nay nguồn nước ngọt bị ô nhiễm như thế nào?”. LIST_MARKER Bước 2: Gv gọi 2 - 3 học sinh trả lời, các bạn khác bổ sung. LIST_END\n\nHEADER_MARKER Page 2 HEADER_END\n\nTrường THPT Tam Nông Giáo án Địa lý 10 - CTST\nGV: Võ Thị Rô Sa Trang 2\nLIST_MARKER Bước 4: Gv chốt ý, vào bài mới. LIST_END\nGV: Nước có mặt ở khắp nơi trên Trái Đất và tồn tại dưới nhiều dạng khác nhau. Trên lục địa\nnước có ở sông, suối, ao, hồ, nước ngầm. Nước là môi trường sống cơ bản, nơi các loài sinh\nvật phát sinh và phát triển. Tuy nhiên hiện nay nguồn nước nhiều nơi đang bị ô nhiễm nghiêm\ntrọng. Chúng ta cần làm gì để bảo vệ nguồn nước ngọt? NUMLIST_MARKER Hoạt động 2: Hình thành kiến thức mới NUMLIST_END\n2.1. Hoạt động 2.1: Tìm hiểu về khái niệm thủy quyển.\na.",
+    "metadata": {
+      "chunk_index": 3,
+      "char_count": 903,
+      "word_count": 189,
+      "keywords": [
+        "nước",
+        "nguồn",
+        "list_marker",
+        "bước",
+        "ô_nhiễm",
+        "hiện_nay",
+        "list_end",
+        "nơi",
+        "video",
+        "trả_lời"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.2485418973791067,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  },
+  {
+    "id": "chunk_2864ea8a_4_1753256233193",
+    "content": "Mục tiêu. LIST_MARKER Nêu được khái niệm thủy quyển. LIST_END\nb. Nội dung. LIST_MARKER Gv sử dụng kỉ thuật “Tia chớp” để hs đưa ra những ý kiến về thủy quyển. LIST_END\nc. Sản phẩm. LIST_MARKER Hs nêu ngắn gọn các ý kiến của mình về khái niệm, giới hạn, phân bố của thủy quyển. LIST_END\nd. Tổ chức thực hiện\nLIST_MARKER Bước 1: Gv dẫn nhập vào nội dung, đặt câu hỏi về thủy quyển.",
+    "metadata": {
+      "chunk_index": 4,
+      "char_count": 379,
+      "word_count": 76,
+      "keywords": [
+        "list_marker",
+        "thủy_quyển",
+        "list_end",
+        "nêu",
+        "khái_niệm",
+        "nội_dung",
+        "ý_kiến",
+        "mục_tiêu",
+        "sử_dụng",
+        "thuật"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.2719379252881544,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  },
+  {
+    "id": "chunk_a21e715a_5_1753256233199",
+    "content": "LIST_END\nDựa vào thông tin trong bài, em hãy:\nLIST_MARKER Nêu khái niệm thủy quyển. LIST_END\nLIST_MARKER Xác định giới hạn trên và dưới của thủy quyển. LIST_END\nLIST_MARKER Thủy quyển có sự phân bố như thế nào? LIST_END\nLIST_MARKER Bước 2: Hs dựa vào nội dung trong sgk, nêu ngắn gọn và nhanh chóng câu trả lời. LIST_END\nLIST_MARKER Nêu khái niệm thủy quyển. LIST_END\nThủy quyển là lớp nước trên Trái Đất, bao gồm nước trong các biển và đại dương, nước trên lục\nđịa và hơi nước trong khí quyển. LIST_MARKER Xác định giới hạn trên và dưới của thủy quyển. LIST_END\nThủy quyển có thể xâm nhập vào tới giới hạn trên tầng đối lưu trong khí quyển và tồn tài trong\ntầng nước ngầm của thạch quyển. LIST_MARKER Thủy quyển có sự phân bố như thế nào? LIST_END\nÄThủy quyển phân bố không đều, chủ yếu là nước mặn chiếm khoảng 97,5%, nước ngọt\nrất ích chỉ chiếm khoảng 2,5% phân bố trên lục địa.",
+    "metadata": {
+      "chunk_index": 5,
+      "char_count": 881,
+      "word_count": 170,
+      "keywords": [
+        "list_end",
+        "thủy_quyển",
+        "list_marker",
+        "trên",
+        "phân_bố",
+        "vào",
+        "nêu",
+        "giới_hạn",
+        "nước",
+        "dựa"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.2797482806970688,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  },
+  {
+    "id": "chunk_c2ccadde_6_1753256233206",
+    "content": "HEADER_MARKER Page 3 HEADER_END\n\nTrường THPT Tam Nông Giáo án Địa lý 10 - CTST\nGV: Võ Thị Rô Sa Trang 3\n& Em có biết? Mỗi bộ phận của thủy quyển đều có vai trò quan trọng. Nước trong đại dương và nước\ntrong băng tuyết giữ ổn định nhiệt độ cho bề mặt Trái Đất. Lượng nước ngọt trong khí quyển và\ntrên lục địa tuy chiếm tỉ lệ rất nhỏ nhưng duy trì sự sống trên đất liền.\n& Em có biết?\n\" Phân tích hình bên.\n\" Sau đó gv cung cấp thêm thông tin:\nLIST_MARKER Nếu có thể gom toàn bộ lượng nước trên LIST_END\nTrái đất sẽ có một quả cầu nước có thể tích\nkhoảng 1386 triệu km3. Lượng nước này\nbao phủ hơn 70% diện tích bề mặt Trái Đất\nvà xâm nhập vào tất cả các quyển của lớp\nvỏ địa lí. LIST_MARKER Trên lục địa nước ngầm nhiều hơn tất cả LIST_END\nnước sông, hồ, đầm. cộng lại. Phần lớn\nnước ngầm là do nước trên bề mặt thấm\nxuống. Công dụng quan trọng nhất của\nnước ngầm là cung cấp nước cho sinh\nhoạt. Ngoài ra, nước ngầm còn là nguồn\ncung cấp nước cho sản xuất nông nghiệp\nvà công nghiệp.",
+    "metadata": {
+      "chunk_index": 6,
+      "char_count": 982,
+      "word_count": 213,
+      "keywords": [
+        "nước",
+        "trên",
+        "nước_ngầm",
+        "bề_mặt",
+        "trái_đất",
+        "lượng",
+        "biết",
+        "quan_trọng",
+        "lục_địa",
+        "list_marker"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.2611442586271191,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  },
+  {
+    "id": "chunk_2418589c_7_1753256233211",
+    "content": "LIST_MARKER Bước 3: Gv đánh giá, thảo luận nội dung và dẫn nhập sang nội dung tiếp theo. LIST_END\n@ Lưu bảng:\nI. KHÁI NIỆM THỦY QUYỂN. LIST_MARKER Thủy quyển là lớp nước trên Trái Đất, bao gồm nước trong các biển và đại dương, nước trên LIST_END\nlục địa và hơi nước trong khí quyển. LIST_MARKER Giới hạn: thủy quyển xâm nhập tới giới hạn trên của tầng đối lưu trong khí quyển và tồn tại LIST_END\ntrong tầng nước ngầm của thạch quyển. Chuyển ý: Ta thấy thủy quyển tồn tại ở biển và địa dương, trên lục địa và trong khí quyển. Vậy nước trên lục địa sẽ chịu sự chi phối của những nhân tố nào, ta sẽ đi vào phần tiếp theo để\ntrả tìm câu trả lời.\n2.2. Hoạt động 2.2: Tìm hiểu về nước trên lục địa.\n2.2.1. Hoạt động 2.2.1: Tìm hiểu về các nhân tố ảnh hưởng đến chế độ nước sông.\na. Mục tiêu.",
+    "metadata": {
+      "chunk_index": 7,
+      "char_count": 785,
+      "word_count": 164,
+      "keywords": [
+        "nước",
+        "trên",
+        "thủy_quyển",
+        "lục_địa",
+        "list_marker",
+        "list_end",
+        "khí_quyển",
+        "nội_dung",
+        "tiếp_theo",
+        "biển"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.2827458443374242,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  },
+  {
+    "id": "chunk_deaa320f_8_1753256233216",
+    "content": "LIST_MARKER Phân tích được các nhân tố ảnh hưởng tới chế độ nước sông. LIST_END\nLIST_MARKER Trình bày được chế độ nước của một con sông cụ thể. LIST_END\nb. Nội dung. LIST_MARKER Gv dùng kĩ thuật “Mảnh ghép” yêu cầu hs thực hiện phiếu học tập phân tích các nhân tố ảnh LIST_END\nhưởng tới chế độ nước sông.\nc. Sản phẩm. LIST_MARKER Nội dung của các nhóm trình bày trong hoạt động mảnh ghép. LIST_END\nd. Tổ chức thực hiện\n\nHEADER_MARKER Page 4 HEADER_END\n\nTrường THPT Tam Nông Giáo án Địa lý 10 - CTST\nGV: Võ Thị Rô Sa Trang 4\nLIST_MARKER Bước 1: GV cung cấp kiến thức: Sông là dòng chảy tương đối ổn định trên bề mặt lục địa và LIST_END\nđảo. Sau đó Gv chia lớp thành các nhóm và quy định số thứ tự các thành viên trong nhóm.",
+    "metadata": {
+      "chunk_index": 8,
+      "char_count": 722,
+      "word_count": 147,
+      "keywords": [
+        "list_marker",
+        "sông",
+        "list_end",
+        "chế_độ",
+        "nước",
+        "nhóm",
+        "phân_tích",
+        "nhân_tố",
+        "tới",
+        "trình_bày"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.24799027644298713,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  },
+  {
+    "id": "chunk_9c589c57_9_1753256233222",
+    "content": "Tùy\nvào số lượng hs mà phân công số lượng nhóm thực hiện các nhiệm vụ được giao, trả lời câu hỏi\ntrong sgk ở tưng nội dung. LIST_MARKER Nhóm 1, 3: Các nhân tố ảnh hưởng tới chế độ nước sông: nguồn cung cấp nước sông. LIST_END\nLIST_MARKER Nhóm 2, 4: Các nhân tố ảnh hưởng tới chế độ nước sông: các nhân tố tự nhiên khác. LIST_END\nLIST_MARKER Bước 2: Mỗi hs trong nhóm làm việc độc lập, ghi lại phần trình bày của mình và thảo luận LIST_END\ncùng nhóm. LIST_MARKER Bước 3: Gv hình thành nhóm mới từ hs của 2 nhóm nội dung trên gọi là nhóm mảnh ghép. LIST_END\nLIST_MARKER Bước 4: Hs ở các nhóm mảnh ghép chia sẽ lần lượt nội dung ở bước 1 đã thực hiện. LIST_END\nLIST_MARKER Bước 5: Các nhóm mảnh ghép trình bày kết quả tìm hiểu của nhóm mình. LIST_END\nLIST_MARKER Nguồn cung cấp nước sông: LIST_END\nLIST_MARKER Nếu sông chỉ phụ thuộc vào một nguồn cung cấp nước (mưa) thì chế độ nước khá đơn giản.",
+    "metadata": {
+      "chunk_index": 9,
+      "char_count": 893,
+      "word_count": 181,
+      "keywords": [
+        "nhóm",
+        "list_marker",
+        "list_end",
+        "sông",
+        "bước",
+        "nội_dung",
+        "nhân_tố",
+        "chế_độ",
+        "nước",
+        "nguồn"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.23355193555771409,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  },
+  {
+    "id": "chunk_842cf119_10_1753256233229",
+    "content": "LIST_END\nLIST_MARKER Nếu sông phụ thuộc vào nhiều nguồn cung cấp nước khác nhau (vừa do mưa, vừa do băng LIST_END\ntuyết tan) thì chế độ nước tương đối phức tạp (có nhiều mùa lũ và cạn xen kẽ). LIST_MARKER Vùng cấu tạo bởi đá granit và đá biến chất có khả năng thấm nước, tạo nguồn nước ngầm phong LIST_END\nphú nên sông ngòi có lượng nước dồi dào. LIST_MARKER Vùng có cấu tạo đá phiết sét không thấm nước nên khi có mưa lớn, lũ lên rất nhanh, đến mùa LIST_END\nkhô thì nước sông cạn kiệt hoặc rất ít nước. LIST_MARKER Các nhân tố tự nhiên khác. LIST_END\nLIST_MARKER Địa hình: ở miền núi, do độ dốc địa hình sông có tốc độ dòng chảy nhanh hơn ở đồng bằng. LIST_END\nLIST_MARKER Thực vật: khi nước mưa rơi xuống, một lượng nước lớn được tán cây giữ lại. Nước thấm dần LIST_END\nvào đất tào thành những mạch nước ngầm. Rừng ở thượng nguồn các con sông giúp điều hoàn\ndòng chảy, giảm lũ lụt. LIST_MARKER Hồ, đầm: nối với sông có tác dụng điều hòa các chế độ nước sông.",
+    "metadata": {
+      "chunk_index": 10,
+      "char_count": 960,
+      "word_count": 194,
+      "keywords": [
+        "nước",
+        "list_marker",
+        "sông",
+        "list_end",
+        "mưa",
+        "thấm",
+        "vào",
+        "nguồn",
+        "khác",
+        "vừa"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.2609042096219931,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  },
+  {
+    "id": "chunk_e34fe3b7_11_1753256233235",
+    "content": "Khi nước sông dâng lên, LIST_END\nmột phần chảy vào hồ đầm. Vào mùa cạn hồ cung cấp nước trở lại cho sông. Điển hình như biển\nhồ ở Campuchia giúp sông Mê Kông điều hòa dòng chảy. LIST_MARKER Bước 6: Gv bổ sung, kết luận các nội dung và tuyên dương những nhóm trình bày tốt. LIST_END\n& Em có biết? LIST_MARKER Ở miền khí hậu nóng hoặc những nơi địa hình thấp của khu vực khí hậu ôn đới, nguồn tiếp LIST_END\nnước chủ yếu là nước mưa, nên chế độ nước sông phụ thuộc vào sự phân bố lượng nước mưa\ntrong năm. Ví dụ: ở vùng Xích đạo lượng mưa nhiều quanh năm nên sông ngòi đầy nước quanh\nnăm; ở khu vực nhiệt đới gió mùa có một mùa mưa và một mùa khô, nên sông có một mùa lũ và\nmột mùa cạn. LIST_MARKER Ở miền ôn đới lạnh và những nơi sông ngòi bắt nguồn từ núi cao, nước sông đều do băng tuyết LIST_END\ntan cung cấp. Mùa xuân đến, khi nhiệt độ lên cao, băng tuyết tan, sông được tiếp nước nhiều\n(mùa lũ).",
+    "metadata": {
+      "chunk_index": 11,
+      "char_count": 898,
+      "word_count": 193,
+      "keywords": [
+        "nước",
+        "sông",
+        "mùa",
+        "mưa",
+        "list_end",
+        "vào",
+        "list_marker",
+        "nên",
+        "lên",
+        "cạn"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.27895842228556256,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  },
+  {
+    "id": "chunk_2280ecd1_12_1753256233241",
+    "content": "LIST_MARKER Ở những vùng đất đá thấm nước nhiều, nước ngầm có vai trò đáng kể trong việc điều hòa chế LIST_END\nđộ nước sông. HEADER_MARKER Page 5 HEADER_END\n\nTrường THPT Tam Nông Giáo án Địa lý 10 - CTST\nGV: Võ Thị Rô Sa Trang 5\nLIST_MARKER Ngoài ra hoạt động của con người: điều tiết chế độ dòng chảy sông thông qua việc xây dựng LIST_END\ncác hồ chứa thủy điện, các công trình thủy lợi, trồng và bảo vệ rừng.\n@ Lưu bảng:\nII. NƯỚC TRÊN LỤC ĐỊA. NUMLIST_MARKER Các nhân tố ảnh hưởng đến chế độ nước sông. NUMLIST_END\na. Nguồn cung cấp nước sông. LIST_MARKER Nếu sông chỉ phụ thuộc vào một nguồn cung cấp nước (mưa) thì chế độ nước của nó khá đơn LIST_END\ngiản. LIST_MARKER Nếu sông phụ thuộc vào nhiều nguồn cung cấp nước khác nhau (mưa, băng tuyết tan) thì chế LIST_END\nđộ nước tương đối phức tạp. LIST_MARKER Vùng đất, đá có khả năng thấm nước nên sông ngòi có lượng nước dồi dào.",
+    "metadata": {
+      "chunk_index": 12,
+      "char_count": 881,
+      "word_count": 175,
+      "keywords": [
+        "nước",
+        "sông",
+        "list_marker",
+        "chế_độ",
+        "nguồn",
+        "cung_cấp_nước",
+        "vùng_đất",
+        "thấm",
+        "chế_list_end",
+        "phụ_thuộc"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.25839273552780934,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  },
+  {
+    "id": "chunk_d4a1c0c5_13_1753256233246",
+    "content": "LIST_END\nLIST_MARKER Vùng đất, đá không thấm nước nên khi có mưa lớn, lũ lên rất nhanh, đến mùa khô thì nước LIST_END\nsông cạn kiệt.\nb. Các nhân tố tự nhiên khác. LIST_MARKER Địa hình: ở miền núi, do độ dốc địa hình, sông có tốc độ dòng chảy nhanh hơn ở đồng bằng. LIST_END\nLIST_MARKER Thực vật: làm tăng nước ngầm, điều hòa dòng chảy cho sông ngòi, giảm lũ lụt. LIST_END\nLIST_MARKER Hồ, đầm: điều hòa các chế độ nước sông, khi nước sông dâng lên, một phần nước chảy vào LIST_END\nhồ đầm. Vào mùa cạn hồ cung cấp nước trở lại cho sông.\n2.2.2. Hoạt động 2.2.2: Tìm hiểu về hồ.\na. Mục tiêu. LIST_MARKER Phân biệt được các loại hồ theo nguồn gốc hình thành. LIST_END\nb.",
+    "metadata": {
+      "chunk_index": 13,
+      "char_count": 665,
+      "word_count": 133,
+      "keywords": [
+        "list_end",
+        "list_marker",
+        "nước",
+        "sông",
+        "lên",
+        "nhanh",
+        "mùa",
+        "địa_hình",
+        "dòng_chảy",
+        "điều"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.24571428571428572,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  },
+  {
+    "id": "chunk_61281f3f_14_1753256233249",
+    "content": "Nội dung. LIST_MARKER Hs vẽ sơ đồ phân loại hồ theo nguồn gốc. LIST_END\nc. Sản phẩm. LIST_MARKER Sơ đồ phân loại hồ của hs. LIST_END\nd. Tổ chức thực hiện\nLIST_MARKER Bước 1: Gv phân công các nhóm Hs cho biết hồ là gì? Hãy vẽ sơ đồ phân loại hồ theo nguồn LIST_END\ngốc trong 5 phút. Mô tả đặc điểm các loại hồ. LIST_MARKER Bước 2: Hs trình này sản phẩm của mình lên bảng.",
+    "metadata": {
+      "chunk_index": 14,
+      "char_count": 370,
+      "word_count": 78,
+      "keywords": [
+        "list_marker",
+        "sơ_đồ",
+        "phân_loại",
+        "list_end",
+        "sản_phẩm",
+        "bước",
+        "nội_dung",
+        "nguồn_gốc",
+        "tổ_chức",
+        "thực_hiện"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.24076923076923076,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  },
+  {
+    "id": "chunk_53951308_15_1753256233256",
+    "content": "LIST_END\nLIST_MARKER Bước 3: Gv mời các nhóm nhận xét, bình chọn sơ đồ có tính thẩm mĩ, chính xác nhất. LIST_END\n@ Lưu bảng:\nII. NƯỚC TRÊN LỤC ĐỊA. NUMLIST_MARKER Hồ. NUMLIST_END\nLIST_MARKER Hồ là vùng trũng chứa nước trong lục địa không thông với biển. LIST_END\nLIST_MARKER Dựa trên nguồn gốc hình thành: hồ tự nhiên, hồ nhân tạo. LIST_END\nLIST_MARKER Hồ tự nhiên: LIST_END\n­ Hồ có nguồn gốc nội sinh: hồ kiến tạo hình thành do các đứt gãy như hồ Bai-can, hồ Vic-\ntô-ri-a; hồ núi lửa hình thành trên miệng núi lửa đã tắt như: Biển Hồ ở Pleiku (Việt Nam), hồ\nCrây-tơ. HEADER_MARKER Page 6 HEADER_END\n\nTrường THPT Tam Nông Giáo án Địa lý 10 - CTST\nGV: Võ Thị Rô Sa Trang 6\n­ Hồ có nguồn gốc ngoại sinh: hồ do băng hà tạo ra như Ngũ Hồ (Can-na-đa, Hoa Kì), hồ\nGấu Lớn (Can-na-đa); hồ bồi tụ do sông như Hoàn Kiếm (Việt Nam). LIST_MARKER Hồ nhân tạo do con người tạo nên với mục đích khác nhau như hồ thủy điện (Hòa Bình), hồ LIST_END\nthủy lợi (Dầu Tiếng)\n& Em có biết?",
+    "metadata": {
+      "chunk_index": 15,
+      "char_count": 966,
+      "word_count": 194,
+      "keywords": [
+        "list_end",
+        "list_marker",
+        "trên",
+        "nguồn_gốc",
+        "can",
+        "nước",
+        "lục_địa",
+        "hình_thành",
+        "tự_nhiên",
+        "nhân_tạo"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.24348573136112356,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  },
+  {
+    "id": "chunk_ace801f3_16_1753256233263",
+    "content": "Hồ Dầu Tiếng được xây dựng trên sông SG, chứa 1,5 tỉ m3 nước, là một trong những hồ\nnhân tạo lớn nhất nước ta hiện nay. Hồ Dầu Tiếng là nguồn cung cấp nước quan trọng cho sản\nxuất nông nghiệp và sinh hoạt ở Tây Ninh, Bình Dương, TP.HCM, Long An. Hiện nay, hồ có\nvai trò lớn đới với việc trồng rừng, khai thác thủy sản, phát triển du lịch. Hồ thủy điện lớn nhất thế giới là đập Tam Hiệp, trên sông\nTrường Giang, Trung Quốc. Hồ dài 660km, rộng 1,12km, thể tích 39,3\nkm3 và tổng diện tích mặt nước là 1045 km2. Đập\nthủy\nđiện\nTam\nHiệp\n(Trung\nQuốc)\nnguồn:\nhttps://bom.so/1q4Cfv\nCH: Tại sao trên lục địa có nhiều loại hồ khác nhau?\nÄDo hồ có nhiều nguồn gốc hình thành khác nhau\nLIST_MARKER Theo nguồn gốc hình thành ta có: LIST_END\nLIST_MARKER Hồ móng ngựa: hình thành từ khúc uốn của sông. LIST_END\nLIST_MARKER Hồ băng hà: được hình thành dô băng hà di chuyển qua, bào mòn mặt đất, đào sâu những chỗ LIST_END\nđất, đá mềm, để lại những vùng nước lớn.",
+    "metadata": {
+      "chunk_index": 16,
+      "char_count": 945,
+      "word_count": 191,
+      "keywords": [
+        "hình_thành",
+        "trên",
+        "sông",
+        "list_marker",
+        "list_end",
+        "dầu",
+        "tiếng",
+        "nước",
+        "nhất",
+        "hiện_nay"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.2471475664145821,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  },
+  {
+    "id": "chunk_4d71ad32_17_1753256233268",
+    "content": "LIST_MARKER Hồ trên núi: hình thành ở những nơi trũng trong miền núi. LIST_END\nLIST_MARKER Hồ núi lửa: hình thành ở miệng núi lửa. LIST_END\nLIST_MARKER Hồ kiến tạo: hình thành ở những vùng trũng trên các đứt gãy kiến tạo. LIST_END\nLIST_MARKER Hồ ở hoang mạc: hình thành ở một số nơi trũng của chân cồn cát trong quá trình gió thổi tạo LIST_END\nthành các cồn cát cao. LIST_MARKER Hồ nhân tạo: do con người tạo nên. LIST_END\nLIST_MARKER Theo tính chất của nước: hồ nước ngọt, hồ nước mặn. LIST_END\n\nHEADER_MARKER Page 7 HEADER_END\n\nTrường THPT Tam Nông Giáo án Địa lý 10 - CTST\nGV: Võ Thị Rô Sa Trang 7\n2.2.3. Hoạt động 2.2.3: Tìm hiểu về nước băng tuyết và nước ngầm.\na. Mục tiêu. LIST_MARKER Trình bày được đặc điểm chủ yếu của nước băng tuyết và nước ngầm.",
+    "metadata": {
+      "chunk_index": 17,
+      "char_count": 757,
+      "word_count": 146,
+      "keywords": [
+        "list_marker",
+        "list_end",
+        "hình_thành",
+        "trũng",
+        "nước",
+        "trên",
+        "núi",
+        "nơi",
+        "núi_lửa",
+        "kiến_tạo"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.24812706972367488,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  },
+  {
+    "id": "chunk_3cc1e697_18_1753256233272",
+    "content": "LIST_END\nb. Nội dung. LIST_MARKER Hs thuyết trình kết hợp với kĩ thuật “Ổ bi” LIST_END\nc. Sản phẩm. LIST_MARKER Nội dung thảo luận của các cặp đôi. LIST_END\nd. Tổ chức thực hiện\nLIST_MARKER Bước 1: Gv chia lớp thành 2 nhóm lớn và yêu cầu các nhóm hs thảo luận giải quyết các câu hỏi LIST_END\ntrong sgk về nước băng tuyết và nước ngầm (thảo luận chung 1 vấn đề). LIST_MARKER Dựa vào thông tin trong bài, em hãy tình bày đặc điểm của nước băng tuyết. LIST_END\nLIST_MARKER Dựa vào hình 12.2 và thông tin trong bài em hãy: LIST_END\nLIST_MARKER Trình bày các đặc điểm của nước ngầm. LIST_END\nLIST_MARKER Nêu những nhân tố ảnh hưởng đên mực nước ngầm.",
+    "metadata": {
+      "chunk_index": 18,
+      "char_count": 645,
+      "word_count": 125,
+      "keywords": [
+        "list_end",
+        "list_marker",
+        "thảo_luận",
+        "nước_ngầm",
+        "nội_dung",
+        "nhóm",
+        "nước",
+        "băng",
+        "tuyết",
+        "dựa"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.26088062015503877,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  },
+  {
+    "id": "chunk_94d67e52_19_1753256233279",
+    "content": "LIST_END\nLIST_MARKER Bước 2: Khi thảo luận, mỗi Hs ở vòng trong sẽ trao LIST_END\nđổi với hs đối diện ở vòng ngoài đây là dạng đặc biệt\ncủa phương pháp luyện tập đối tác. LIST_MARKER Bước 3: Sau 3 phút thì Hs vòng ngoài ngồi yên, hs LIST_END\nvòng trong chuyển chỗ theo chiều kim đồng hồ, tương\ntự như vòng bi quay để luôn hình thành các nhóm đối\ntác mới. LIST_MARKER Dựa vào thông tin trong bài, em hãy tình bày đặc LIST_END\nđiểm của nước băng tuyết. Trên đỉnh núi cao và vùng cực, nước tồn tại ở thể rắn gọi là nước băng tuyết, bao phủ 10% diện\ntích lục địa. Trong đó, nước băng tuyết phân bố rải rác ở những đỉnh núi cao, chiếm khoảng 3%\ndiện tích băng trên toàn Trái Đất, đây là nguồn cung cấp nước cho nhiều sông lớn, bao phủ toàn\nbộ châu Nam Cực và phần lớn phía bắc của Châu Âu, Châu Á, Bắc Mỹ. Nước băng tuyết có tác dụng quan trọng trong điều hòa nhiệt độ Trái Đất, cung cấp nước ngọt -\nchiếm 70% tổng lượng nước ngọt trên Trái đất. Hiện nay, biến đổi khí hậu làm cho băng tuyết\nđang tan dần.",
+    "metadata": {
+      "chunk_index": 19,
+      "char_count": 999,
+      "word_count": 211,
+      "keywords": [
+        "nước",
+        "băng",
+        "vòng",
+        "tuyết",
+        "list_end",
+        "list_marker",
+        "trên",
+        "trái_đất",
+        "châu",
+        "bước"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.27232066189412163,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  },
+  {
+    "id": "chunk_b27a044d_20_1753256233285",
+    "content": "CH: Thế giới nói chung, VN nói riêng biến đổi khí hậu đặc biệt là hiệu ứng nhà kính, đã và đang\ntác động rất lớn đến đời sống ngươi dân. Vậy chúng ta cần có những giải pháp gì để hạn chế hiệu\nứng nhà kính?\nÄHạn chế sử dụng nhiên liệu hóa thạch, sử dụng nguồn năng lượng xanh thay thế, trồng rừng,\ntiết kiệm điện. LIST_MARKER Trình bày các đặc điểm của nước ngầm. LIST_END\nTrong vỏ Trái đất có một lượng nước khá lớn, đó là nước ngầm. Nước ngầm tồn tại thường xuyên\ntrong tầng chứa nước. LIST_MARKER Nêu những nhân tố ảnh hưởng đên mực nước ngầm. LIST_END\nMực nước ngầm luôn thay đổi, phụ thuộc vào nguồn cung cấp nước là nước mưa, hơi nước trong\nkhông khí, nước từ sông ngòi thắm xuống, địa hình và cấu tạo đất đá,. Thực vật làm tăng khả\nnăng thẩm và giảm quá trình bốc hơi của nước ngầm.",
+    "metadata": {
+      "chunk_index": 20,
+      "char_count": 788,
+      "word_count": 164,
+      "keywords": [
+        "nước_ngầm",
+        "nước",
+        "nhà_kính",
+        "sử_dụng",
+        "nguồn",
+        "list_marker",
+        "list_end",
+        "mực",
+        "thế_giới",
+        "nói_chung"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.2684381577318311,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  },
+  {
+    "id": "chunk_7e01a4c8_21_1753256233291",
+    "content": "HEADER_MARKER Page 8 HEADER_END\n\nTrường THPT Tam Nông Giáo án Địa lý 10 - CTST\nGV: Võ Thị Rô Sa Trang 8\nCH: Nước ngầm có vai trò như thế nào với đời sống sản xuất?\nÄNước ngầm có vai trò cung cấp nước cho sinh hoạt và sản xuất, ổn định dòng chảy và chống\nsụt lún. Tuy nhiên, hiện nay con người khai thác quá mức làm mực nước ngầm suy giảm. Trong nước ngầm có một lượng khoáng chất nhất định. Thành phần và hàm lượng các chất\nkhoáng thay đổi tùy theo khu vực, phụ thuộc vào tính chất đá. Cho hs xem video vì khai thác nước ngầm mà làm sụt lún đất:\nhttps://www.youtube.com/watch?v=82NC_DalvAA sau đó đặt câu hỏi\nCH: Vậy để hạn chế những tình trạng trên chúng ta cần phải có những biện pháp gì?\nÄSử dụng nước ngầm hợp lí, hạn chế ô nhiễm nước ngầm, không chôn lấp chất thải sinh hoạt và\nsản xuất để gây ô nhiễm nước ngầm. LIST_MARKER Bước 4: Gv nhận xét và đánh giá. LIST_END\n@ Lưu bảng:\nII. NƯỚC TRÊN LỤC ĐỊA. NUMLIST_MARKER Nước băng tuyết.",
+    "metadata": {
+      "chunk_index": 21,
+      "char_count": 938,
+      "word_count": 192,
+      "keywords": [
+        "nước_ngầm",
+        "sản_xuất",
+        "vai_trò",
+        "sinh_hoạt",
+        "sụt",
+        "lún",
+        "khai_thác",
+        "làm",
+        "hạn_chế",
+        "trên"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.25160914179104477,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  },
+  {
+    "id": "chunk_98d1f9c4_22_1753256233298",
+    "content": "NUMLIST_END\nLIST_MARKER Trên đỉnh núi cao và vùng cực, nước tồn tại ở thể rắn gọi là nước băng tuyết. LIST_END\nLIST_MARKER Nước băng tuyết ở những đỉnh núi cao, là nguồn cung cấp nước cho nhiều sông lớn ở châu LIST_END\nNam Cực và phía bắc của Châu Âu, Châu Á, Bắc Mỹ. LIST_MARKER Nước băng tuyết có tác dụng quan trọng trong điều hòa nhiệt độ, cung cấp nước ngọt trên LIST_END\nTrái Đất. NUMLIST_MARKER Nước ngầm. NUMLIST_END\nLIST_MARKER Nước ngầm tồn tại ở dưới bề mặt đất. Nước ngầm do nước trên mặt thấm xuống. LIST_END\nLIST_MARKER Mực nước ngầm phụ thuộc vào nguồn cung cấp nước, địa hình và cấu tạo đất đá,. LIST_END\nLIST_MARKER Nước ngầm có vai trò cung cấp nước cho sinh hoạt và sản xuất, ổn định dòng chảy, chống sụt LIST_END\nlún.Tuy nhiên, con người đang khai thác quá mức làm mực nước ngầm suy giảm. CH: Tại sao nước ngầm trên lục địa phân bố không đều?\nÄ Vì nước ngầm phụ thuộc vào nhiều nhân tố khác nhau: Nguồn cung cấp, lượng bốc hơi, địa\nhình, cấu tạo của đất đá, lớp phủ thực vật.",
+    "metadata": {
+      "chunk_index": 22,
+      "char_count": 995,
+      "word_count": 196,
+      "keywords": [
+        "nước_ngầm",
+        "list_marker",
+        "nước",
+        "list_end",
+        "trên",
+        "băng",
+        "tuyết",
+        "nguồn",
+        "cung_cấp_nước",
+        "numlist_end"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.25511998769356986,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  },
+  {
+    "id": "chunk_8c64ada1_23_1753256233305",
+    "content": "LIST_MARKER Nguồn cung cấp (nước mưa, nước băng, tuyết tan.) và lượng bốc hơi nhiều hay ít. LIST_END\nLIST_MARKER Địa hình: mặt đất dốc, mưa chảy nhanh nên thấm ít; mặt đất bằng phẳng, nước thấm nhiều. LIST_END\nLIST_MARKER Cấu tạo của đất đá: nếu kích thước của các hạt đất đá lớn sẽ tạo thành khe hở rộng, nước thấm LIST_END\nnhiều; ngược lại hạt nhỏ tạo khe hở nhỏ, nước thấm ít. LIST_MARKER Lớp phủ thực vật: nơi có nhiều cây cỏ, nước theo thân cây và rễ thấm xuống nhiều hơn ở vùng LIST_END\ncây cối ít. CH: Tại sao vùng hoang mạc, đất cát thấm nước tốt nhưng mực nước ngầm lại không phong\nphú? LIST_MARKER Nguồn cung cấp nước hạn chế: phần lớn nước ngầm có nguồn gốc là nước trên mặt ngấm xuống, LIST_END\nnhưng ở đây lượng mưa hạn chế (dưới 200mm/năm), hệ số dòng chảy nhỏ làm nguồn cung cấp\nnước thấp. LIST_MARKER Nhiệt độ thường xuyên cao, lượng bốc hơi lớn. LIST_END\nLIST_MARKER Thảm thực vật nghèo nàn làm cân bằng ẩm luôn âm, lượng nước cung cấp cho nước ngầm ít.",
+    "metadata": {
+      "chunk_index": 23,
+      "char_count": 970,
+      "word_count": 191,
+      "keywords": [
+        "nước",
+        "list_marker",
+        "list_end",
+        "thấm",
+        "lượng",
+        "nguồn",
+        "cung_cấp",
+        "mưa",
+        "nước_ngầm",
+        "bốc_hơi"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.23351756895341932,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  },
+  {
+    "id": "chunk_7c4a7f12_24_1753256233308",
+    "content": "LIST_END\n\nHEADER_MARKER Page 9 HEADER_END\n\nTrường THPT Tam Nông Giáo án Địa lý 10 - CTST\nGV: Võ Thị Rô Sa Trang 9\n2.3. Hoạt động 2.3: Tìm hiểu về bảo vệ nguồn nước ngọt.\na. Mục tiêu. LIST_MARKER Nêu được các giải pháp bảo vệ nguồn nước ngọt. LIST_END\nb. Nội dung. LIST_MARKER Sử dụng kĩ thuật “Phòng tranh” để giao nhiệm vụ cho các nhóm hs dựa vào nội dung trong bài LIST_END\nđể nêu các giải pháp bảo vệ nguồn nước ngọt.\nc. Sản phẩm. LIST_MARKER Sản phẩm “tranh” về các giải pháp bảo vệ nguồn nước ngọt của các nhóm. LIST_END\nd.",
+    "metadata": {
+      "chunk_index": 24,
+      "char_count": 528,
+      "word_count": 106,
+      "keywords": [
+        "list_end",
+        "nguồn",
+        "nước_ngọt",
+        "list_marker",
+        "giải_pháp_bảo_vệ",
+        "2.3",
+        "nêu",
+        "nội_dung",
+        "tranh",
+        "nhóm"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.2595197255574614,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  },
+  {
+    "id": "chunk_a6966881_25_1753256233315",
+    "content": "Tổ chức thực hiện\nLIST_MARKER Bước 1: Gv chia lớp thành các nhóm, tùy vào số lượng Hs mà phân chia số lượng nhóm. Gv LIST_END\nyêu cầu các nhóm phác họa ý tưởng của mình lên tờ giấy A0 với nội dung sau:\nLIST_MARKER Nguyên nhân khiến nước ngọt ngày càng khan hiếm trên thế giới. LIST_END\nLIST_MARKER Hệ quả do ô nhiễm và khan hiếm nước ngọt gây ra. LIST_END\nLIST_MARKER Những giải pháp cụ thể để bảo vệ nguồn nước ngọt. LIST_END\nLIST_MARKER Bước 2: Hs trong nhóm phác họa ý tưởng lên giấy A0 và dán sản phẩm của mình lên bảng và LIST_END\ntường xung quanh lớp học. LIST_MARKER Nguyên nhân khiến nước ngọt ngày càng khan hiếm trên thế giới. LIST_END\nNước ngọt phân bố không đều trên Trái đất. Nước bốc hơi nhiều, lượng mưa một số nơi ít. Dự trữ nước kém\nTrong sản xuất con người chặt phá rừng, làm ô nhiễm nguồn nước, sử dụng lãng phí, tăng dân\nsố, khai thác nước quá mức. LIST_MARKER Hệ quả do ô nhiễm và khan hiếm nước ngọt gây ra.",
+    "metadata": {
+      "chunk_index": 25,
+      "char_count": 929,
+      "word_count": 188,
+      "keywords": [
+        "list_marker",
+        "list_end",
+        "nước_ngọt",
+        "nhóm",
+        "khan_hiếm",
+        "nước",
+        "lên",
+        "trên",
+        "ô_nhiễm",
+        "bước"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.24697169227950436,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  },
+  {
+    "id": "chunk_f88ac425_26_1753256233321",
+    "content": "LIST_END\nẢnh hưởng đến sức khỏe cộng đồng. Sản xuất lương thực. Sa mạc hóa\nChiến tranh giành nguồn nước. Ảnh hưởng đến phát triển kinh tế, nâng cao chất lượng cuộc sống. LIST_MARKER Những giải pháp cụ thể để bảo vệ nguồn nước ngọt. LIST_END\nPhân phối lại nguồn nước ngọt trên thế giới: xây dựng các hồ dự trữ nước, bảo trì cải tạo đường\nống vận chuyển nước ngọt. Sử dụng nguồn nước hợp lí: tuyên truyền, giáo dục ý thức người dân về bảo vệ tài nguyên nước,\nsử dụng nước tiết kiệm. Hạn chế gây ô nhiễm nước: cần xây dựng khung pháp lí, quy định, chính sách, bộ luật bảo vệ\nmôi trường và nguồn nước. LIST_MARKER Bước 3: Hs cả lớp đi xem triển lãm phòng tranh, để bình luận hoặc bổ sung cho các bức tranh LIST_END\ncủa các nhóm. LIST_MARKER Bước 4: Gv tập hợp tát cả các nội dung lại và tổng kết, đưa ra các giải pháp tối ưu và hợp lí, khả LIST_END\nthi nhất của các nhóm.\n@ Lưu bảng:\nIII.",
+    "metadata": {
+      "chunk_index": 26,
+      "char_count": 884,
+      "word_count": 184,
+      "keywords": [
+        "nước",
+        "nguồn",
+        "list_marker",
+        "bảo_vệ",
+        "nước_ngọt",
+        "list_end",
+        "ảnh_hưởng",
+        "đến",
+        "giải_pháp",
+        "xây_dựng"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.2573554003541216,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  },
+  {
+    "id": "chunk_6b66649f_27_1753256233327",
+    "content": "BẢO VỆ NGUỒN NƯỚC NGỌT. HEADER_MARKER Page 10 HEADER_END\n\nTrường THPT Tam Nông Giáo án Địa lý 10 - CTST\nGV: Võ Thị Rô Sa Trang 10\nLIST_MARKER Phân phối lại nguồn nước ngọt trên thế giới: xây dựng các hồ dự trữ nước, bảo trì cải tạo LIST_END\nđường ống vận chuyển nước ngọt. LIST_MARKER Sử dụng nguồn nước hợp lí: tuyên truyền, giáo dục ý thức người dân về bảo vệ tài nguyên LIST_END\nnước, sử dụng nước tiết kiệm. LIST_MARKER Hạn chế gây ô nhiễm nước: cần xây dựng khung pháp lí, quy định, chính sách, bộ luật bảo vệ LIST_END\nmôi trường và nguồn nước. NUMLIST_MARKER Hoạt động 3: Luyện tập NUMLIST_END\na. Mục tiêu:\nLIST_MARKER Củng cố lại kiến thức bài học LIST_END\nb. Nội dung\nLIST_MARKER GV tổ chức trò chơi ngắn, HS tham gia trò chơi để củng cố bài học. LIST_END\nLIST_MARKER Trò chơi: ĐI TÌM MỘT NỬA LIST_END\nc. Sản phẩm\nLIST_MARKER Kết quả ghép nối kiến thức của trò chơi.",
+    "metadata": {
+      "chunk_index": 27,
+      "char_count": 874,
+      "word_count": 170,
+      "keywords": [
+        "list_marker",
+        "nước",
+        "list_end",
+        "nguồn",
+        "trò_chơi",
+        "bảo_vệ",
+        "nước_ngọt",
+        "xây_dựng",
+        "sử_dụng",
+        "củng_cố"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.24141472607349576,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  },
+  {
+    "id": "chunk_91bdd35a_28_1753256233334",
+    "content": "LIST_END\nLIST_MARKER Bộ thẻ: (GV cắt nhỏ các ô rời ra) LIST_END\nSông\nDÒNG CHẢY THƯỜNG XUYÊN, TƯƠNG ĐỐI LỚN TRÊN\nBỀ MẶT LỤC ĐỊA VÀ ĐẢO\nHồ\nVÙNG TRŨNG CHỨA NƯỚC TRÊN BỀ MẶT TRÁI ĐẤT,\nKHÔNG THÔNG VỚI BIỂN\nNước băng tuyết\nPHỔ BIẾN Ở VÙNG HÀN ĐỚI, ÔN ĐỚI VÀ TRÊN NÚI CAO\nNước ngầm\nTỒN TẠI Ở DƯỚI BỀ MẶT ĐẤT\nCác nhân tố ảnh hưởng đến\nchế độ nước sông\nĐỊA HÌNH, THỰC VẬT, HỒ ĐẦM, NƯỚC MƯA, BĂNG\nTUYẾT, SỰ PHÂN BỐ VÀ SỐ CHI LƯU, PHỤ LƯU\nPhân loại hồ\nHỒ NÚI LỬA, HỒ BĂNG HÀ, HỒ KIẾN TẠO, HỒ MÓNG\nNGỰA, HỒ NHÂN TẠO\nd. Tổ chức thực hiện:\nLIST_MARKER Chuyển giao nhiệm vụ: GV giới thiệu thể lệ trò chơi: Mỗi nhóm HS (5 người) nhận 1 bộ thẻ LIST_END\nghép nối gồm 2 màu - thẻ xanh và thẻ hồng, trong thời gian 2 phút ghép thành các cặp thẻ theo\nnội dung tương ứng, khi có 1 nhóm hoàn thành trước thì trò chơi kết thúc và nhóm hoàn thành\nsẽ được điểm cộng. LIST_MARKER Thực hiện nhiệm vụ: HS thực hiện trò chơi. LIST_END\nLIST_MARKER Báo cáo, thảo luận: Nhóm hoàn thành trò chơi đầu tiên báo cáo kết quả.",
+    "metadata": {
+      "chunk_index": 28,
+      "char_count": 987,
+      "word_count": 212,
+      "keywords": [
+        "thẻ",
+        "list_end",
+        "list_marker",
+        "nước",
+        "trò_chơi",
+        "nhóm",
+        "trên",
+        "thực_hiện",
+        "hoàn_thành",
+        "sông"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.24393148668540077,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  },
+  {
+    "id": "chunk_44206efa_29_1753256233338",
+    "content": "Các nhóm còn lại LIST_END\nnhận xét. LIST_MARKER Kết luận, nhận định: GV kiểm tra, đánh giá kết quả, tích điểm cộng cho nhóm hoàn thành LIST_END\nxuất sắc. NUMLIST_MARKER Hoạt động 4: Vận dụng. NUMLIST_END\na. Mục tiêu. LIST_MARKER Liên hệ kiến thức đã học để giải quyết những vấn đề thực tiễn. LIST_END\nb. Nội dung. HEADER_MARKER Page 11 HEADER_END\n\nTrường THPT Tam Nông Giáo án Địa lý 10 - CTST\nGV: Võ Thị Rô Sa Trang 11\nLIST_MARKER Hs tìm hiểu về đặc điểm và vai trò của những sông hồ ở địa phương. LIST_END\nc.",
+    "metadata": {
+      "chunk_index": 29,
+      "char_count": 510,
+      "word_count": 99,
+      "keywords": [
+        "list_end",
+        "list_marker",
+        "nhóm",
+        "nhận_xét",
+        "kết_luận",
+        "nhận_định",
+        "kiểm_tra",
+        "đánh_giá",
+        "kết_quả",
+        "tích"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.24522281639928695,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  },
+  {
+    "id": "chunk_d7bf22b4_30_1753256233342",
+    "content": "Sản phẩm. LIST_MARKER Bài báo cáo ngắn. LIST_END\nd. Tổ chức thực hiện\nLIST_MARKER Bước 1: Gv giao nhiệm vụ, Hs thực hiện ngoài giờ học. LIST_END\nLIST_MARKER Bước 2: hs viết báo cáo ngắn với các gợi ý sau: LIST_END\nLIST_MARKER Vị trí của sông (hồ). LIST_END\nLIST_MARKER Đặc điểm về diện tích, hình dạng, phân loại. LIST_END\nLIST_MARKER Vai trò của sông hồ đối với phát triển kinh tế xã hội. LIST_END\nLIST_MARKER HÌnh ảnh minh họa kèm theo (nếu có). LIST_END\nLIST_MARKER Bước 3: Gv đánh giá, nhận xét sản phẩm của hs. LIST_END\nSông Cửu Long (hay còn gọi là sông Mê Kông) là con sông dài thứ 12 trên thế giới và đứng\nhàng thứ 7 ở châu Á.",
+    "metadata": {
+      "chunk_index": 30,
+      "char_count": 634,
+      "word_count": 124,
+      "keywords": [
+        "list_marker",
+        "list_end",
+        "sông",
+        "bước",
+        "sản_phẩm",
+        "báo_cáo",
+        "ngắn",
+        "thực_hiện",
+        "thứ",
+        "bài"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.241701434822428,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  },
+  {
+    "id": "chunk_af9dba9f_31_1753256233348",
+    "content": "Nó dài khoảng 4.350 Km. Sông bắt nguồn từ Thanh Tạng (Trung Quốc)\nbăng qua Tây Tạng theo suốt chiều dài tỉnh Vân Nam chảy qua 4 nước là Thái Lan, Myanmar,\nLào và Campuchia trước khi chảy vào Việt Nam rồi đổ ra biển Đông theo 9 cửa sông. Cũng\nchính vì vậy mà nó có tên là sông Cửu Long, tức là 9 con rồng cùng đổ ra biển. Tuy nhiên, 02\ntrong số chín cửa sông Cửu Long là Ba Lai và Bát Sắc đã bị nghẽn và nước đã không còn lưu\nthông được nữa. Nguyên nhân bị nghẽn của sông Bát Sắc do các cồn cát ở hai cửa sông này phát\ntriển mạnh tạo nên rào chắn lớn làm nghẽn đường chảy của cửa sông. Còn nguyên nhân nghẽn\nsông trên của sông Ba Lai là do tác động của con người, do xây dựng hệ thống cống đập. Việc\nhai cửa sông đã chết đã gây ra ảnh hưởng lớn như làm tăng tình trạng sạt lở đất và vận tải giảm\nsút.",
+    "metadata": {
+      "chunk_index": 31,
+      "char_count": 799,
+      "word_count": 180,
+      "keywords": [
+        "sông",
+        "cửa_sông",
+        "nghẽn",
+        "chảy",
+        "dài",
+        "tạng",
+        "qua",
+        "nam",
+        "nước",
+        "biển"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.26366082603254065,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  },
+  {
+    "id": "chunk_0ca934f5_32_1753256233350",
+    "content": "Vùng đất miền Tây Nam bộ có sông Mê Kông chảy từ Campuchia đổ về đến Việt Nam thì chia\nlàm hai nhánh theo dòng chảy từ Bắc xuống Nam: bên phải (hữu ngạn) là sông Bassac (sông\nHậu), bên trái (tả ngạn) gọi là sông Tiền, mỗi nhánh dài chừng 220-250 km chạy qua nhiều tỉnh\nlị của vùng đồng bằng Nam bộ.",
+    "metadata": {
+      "chunk_index": 32,
+      "char_count": 298,
+      "word_count": 64,
+      "keywords": [
+        "nam",
+        "sông",
+        "nhánh",
+        "bên",
+        "vùng_đất",
+        "miền",
+        "tây",
+        "kông",
+        "chảy",
+        "campuchia"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.25361786912751677,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  }
+]

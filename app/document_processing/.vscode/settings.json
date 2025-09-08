@@ -1,0 +1,7 @@
+{
+    "python.analysis.extraPaths": [
+        "./documents_processing",
+        "./data_chunking",
+        "./data_embedding"
+    ]
+}

@@ -1,0 +1,171 @@
+{
+  "status": "completed",
+  "timestamp": "2025-07-18 15:06:03",
+  "total_lessons_crawled": 20,
+  "successful_downloads": 13,
+  "failed_downloads": 7,
+  "download_results": [
+    {
+      "status": "success",
+      "title": "Cách dùng Used to, be used to, get used to",
+      "images_count": 6,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/Cách_dùng_Used_to_be_used_to_get_used_to.pdf",
+      "lesson_number": 1,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=18832"
+    },
+    {
+      "status": "success",
+      "title": "Đọc online",
+      "images_count": 8,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/Đọc_online.pdf",
+      "lesson_number": 2,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=18820"
+    },
+    {
+      "status": "success",
+      "title": "Đề luyện thi THPTQG môn Vật lí - đề 1 - thầy Phạm Văn Tùng",
+      "images_count": 6,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/Đề_luyện_thi_THPTQG_môn_Vật_lí_-_đề_1_-_thầy_Phạm_Văn_Tùng.pdf",
+      "lesson_number": 3,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=72"
+    },
+    {
+      "status": "error",
+      "message": "No images found",
+      "pdf_path": null,
+      "lesson_number": 4,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=416"
+    },
+    {
+      "status": "success",
+      "title": "Đọc online",
+      "images_count": 10,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/Đọc_online.pdf",
+      "lesson_number": 5,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=87"
+    },
+    {
+      "status": "success",
+      "title": "Xem chi tiết >>",
+      "images_count": 16,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/Xem_chi_tiết.pdf",
+      "lesson_number": 6,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=86"
+    },
+    {
+      "status": "error",
+      "message": "No images found",
+      "pdf_path": null,
+      "lesson_number": 7,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=418"
+    },
+    {
+      "status": "error",
+      "message": "No images found",
+      "pdf_path": null,
+      "lesson_number": 8,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=1242"
+    },
+    {
+      "status": "error",
+      "message": "No images found",
+      "pdf_path": null,
+      "lesson_number": 9,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=422"
+    },
+    {
+      "status": "success",
+      "title": "Đọc online",
+      "images_count": 22,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/Đọc_online.pdf",
+      "lesson_number": 10,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=2508"
+    },
+    {
+      "status": "success",
+      "title": "Xem chi tiết >>",
+      "images_count": 10,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/Xem_chi_tiết.pdf",
+      "lesson_number": 11,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=1314"
+    },
+    {
+      "status": "success",
+      "title": "Đọc online",
+      "images_count": 13,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/Đọc_online.pdf",
+      "lesson_number": 12,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=1802"
+    },
+    {
+      "status": "error",
+      "message": "No images found",
+      "pdf_path": null,
+      "lesson_number": 13,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=18822"
+    },
+    {
+      "status": "success",
+      "title": "Đề thi thử THPTQG năm 2018 - Môn Vật Lý - Đề kiểm tra giữa kì THPT Chu Văn An - Hà Nội",
+      "images_count": 5,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/Đề_thi_thử_THPTQG_năm_2018_-_Môn_Vật_Lý_-_Đề_kiểm_tra_giữa_kì_THPT_Chu_Văn_An_-_Hà_Nội.pdf",
+      "lesson_number": 14,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=430"
+    },
+    {
+      "status": "error",
+      "message": "No images found",
+      "pdf_path": null,
+      "lesson_number": 15,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=420"
+    },
+    {
+      "status": "success",
+      "title": "Đọc online",
+      "images_count": 2,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/Đọc_online.pdf",
+      "lesson_number": 16,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=88"
+    },
+    {
+      "status": "success",
+      "title": "Đọc online",
+      "images_count": 5,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/Đọc_online.pdf",
+      "lesson_number": 17,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=444"
+    },
+    {
+      "status": "success",
+      "title": "1001 phương trình phản ứng hóa học phức tạp nhất",
+      "images_count": 30,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/1001_phương_trình_phản_ứng_hóa_học_phức_tạp_nhất.pdf",
+      "lesson_number": 18,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=13078"
+    },
+    {
+      "status": "success",
+      "title": "Xem chi tiết >>",
+      "images_count": 26,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/Xem_chi_tiết.pdf",
+      "lesson_number": 19,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=10960"
+    },
+    {
+      "status": "error",
+      "message": "No images found",
+      "pdf_path": null,
+      "lesson_number": 20,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=416"
+    }
+  ],
+  "download_folders": {
+    "base_output_dir": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls",
+    "common_pdfs_dir": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai",
+    "current_session_images_dir": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/crawl_session_20250718_150259/images"
+  },
+  "minio_upload_summary": {
+    "status": "skipped",
+    "reason": "PDF processor not initialized"
+  }
+}

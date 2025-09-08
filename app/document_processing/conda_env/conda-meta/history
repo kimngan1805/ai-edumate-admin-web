@@ -1,0 +1,5 @@
+==> 2025-07-21 13:14:13 <==
+# cmd: /Users/kimngan/miniforge3/bin/conda create --prefix ./conda_env python=3.12.8 -y
+# conda version: 25.5.1
++defaults/osx-arm64::bzip2-1.0.8-h80987f9_6
+# update specs: ['python=3.12.8']

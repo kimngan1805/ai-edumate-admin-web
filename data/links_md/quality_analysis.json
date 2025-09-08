@@ -1,0 +1,378 @@
+[
+  {
+    "url": "https://www.vietjack.com/chuyen-de-toan-11/giai-chuyen-de-hoc-tap-toan-11-canh-dieu.jsp",
+    "timestamp": "2025-07-21T00:48:13.160680",
+    "analysis": {
+      "is_quality": true,
+      "score": 5,
+      "reason": "AI not available - basic length check",
+      "content_type": "unknown"
+    }
+  },
+  {
+    "url": "https://www.vietjack.com/chuyen-de-toan-12/giai-chuyen-de-hoc-tap-toan-12-ket-noi.jsp",
+    "timestamp": "2025-07-21T00:48:20.414923",
+    "analysis": {
+      "is_quality": true,
+      "score": 5,
+      "reason": "AI not available - basic length check",
+      "content_type": "unknown"
+    }
+  },
+  {
+    "url": "https://www.vietjack.com/chuyen-de-toan-12/giai-chuyen-de-hoc-tap-toan-12-chan-troi.jsp",
+    "timestamp": "2025-07-21T00:48:28.715050",
+    "analysis": {
+      "is_quality": true,
+      "score": 5,
+      "reason": "AI not available - basic length check",
+      "content_type": "unknown"
+    }
+  },
+  {
+    "url": "https://www.vietjack.com/chuyen-de-toan-12/giai-chuyen-de-hoc-tap-toan-12-canh-dieu.jsp",
+    "timestamp": "2025-07-21T00:48:34.958737",
+    "analysis": {
+      "is_quality": true,
+      "score": 5,
+      "reason": "AI not available - basic length check",
+      "content_type": "unknown"
+    }
+  },
+  {
+    "url": "https://www.vietjack.com/on-thi-dai-hoc/de-thi-thu-nam-2023.jsp",
+    "timestamp": "2025-07-21T00:50:58.778900",
+    "analysis": {
+      "is_quality": false,
+      "score": 2,
+      "reason": "Nội dung chủ yếu là quảng cáo bán bộ đề thi. Chỉ cung cấp các liên kết đến các đề thi mà không có nội dung cụ thể nào.  Không có thông tin về lời giải chi tiết, chỉ đề cập đến việc có lời giải trong bộ đề bán. Thiếu thông tin bài học, ví dụ và bài tập.  Nội dung không đáp ứng được yêu cầu của một bài học hoặc đề thi đầy đủ.",
+      "content_type": "advertisement",
+      "has_complete_info": false,
+      "educational_value": "low"
+    }
+  },
+  {
+    "url": "https://www.vietjack.com/on-thi-dai-hoc/de-thi-danh-gia-nang-luc.jsp",
+    "timestamp": "2025-07-21T00:51:07.679846",
+    "analysis": {
+      "is_quality": false,
+      "score": 3,
+      "reason": "Nội dung chủ yếu là quảng cáo bán bộ đề thi.  Mặc dù đề cập đến cấu trúc đề thi của một số trường đại học, nhưng không cung cấp nội dung đề thi cụ thể. Chỉ có một số đề thi mẫu ngắn gọn để xem thử, phần lớn nội dung là hướng dẫn mua trọn bộ đề thi.  Thiếu thông tin chi tiết về nội dung đề thi, lời giải và phân tích.  Vì vậy, giá trị giáo dục thấp.",
+      "content_type": "advertisement",
+      "has_complete_info": false,
+      "educational_value": "low"
+    }
+  },
+  {
+    "url": "https://www.vietjack.com/de-kiem-tra-lop-1/de-kiem-tra-toan-lop-1.jsp",
+    "timestamp": "2025-07-21T00:51:18.975434",
+    "analysis": {
+      "is_quality": false,
+      "score": 3,
+      "reason": "Nội dung chủ yếu là quảng cáo bán bộ đề thi Toán lớp 1.  Mặc dù đề cập đến việc có đáp án đầy đủ và đề thi cho cả học kì 1 và 2, nhưng không cung cấp bất kỳ nội dung đề thi nào để đánh giá chất lượng. Chỉ có các liên kết xem thử và hướng dẫn mua trọn bộ đề thi.  Thiếu thông tin chi tiết về nội dung đề thi, không có ví dụ hay bài giải cụ thể.  Vì vậy, giá trị giáo dục thấp.",
+      "content_type": "advertisement",
+      "has_complete_info": false,
+      "educational_value": "low"
+    }
+  },
+  {
+    "url": "https://www.vietjack.com/de-kiem-tra-lop-1/de-kiem-tra-tieng-viet-lop-1.jsp",
+    "timestamp": "2025-07-21T00:51:27.005766",
+    "analysis": {
+      "is_quality": false,
+      "score": 3,
+      "reason": "Nội dung chủ yếu là quảng cáo bán bộ đề thi Tiếng Việt lớp 1.  Mặc dù đề cập đến việc có 200 đề thi và đáp án, nhưng nội dung chỉ cung cấp một số liên kết xem thử giới hạn và hướng dẫn mua trọn bộ.  Không có nội dung đề thi nào được hiển thị trực tiếp.  Thông tin về đáp án cũng rất mơ hồ, không đảm bảo chất lượng và độ chi tiết.  Vì vậy, giá trị giáo dục rất thấp.",
+      "content_type": "advertisement",
+      "has_complete_info": false,
+      "educational_value": "low"
+    }
+  },
+  {
+    "url": "https://www.vietjack.com/de-kiem-tra-lop-1/de-kiem-tra-tieng-anh-lop-1.jsp",
+    "timestamp": "2025-07-21T00:51:35.866705",
+    "analysis": {
+      "is_quality": false,
+      "score": 3,
+      "reason": "Nội dung chủ yếu là quảng cáo bán bộ đề thi Tiếng Anh lớp 1.  Mặc dù đề cập đến việc có 100 đề thi và đáp án, nhưng người dùng chỉ được xem một vài đề mẫu. Phần lớn nội dung là hướng dẫn thanh toán để mua trọn bộ đề.  Thiếu thông tin chi tiết về các đề thi, không có ví dụ cụ thể nào được trình bày.  Chỉ cung cấp danh sách các đề thi và một số đề mẫu rất ngắn gọn.",
+      "content_type": "advertisement",
+      "has_complete_info": false,
+      "educational_value": "low"
+    }
+  },
+  {
+    "url": "https://www.vietjack.com/de-kiem-tra-lop-1/bai-tap-toan-lop-1.jsp",
+    "timestamp": "2025-07-21T00:51:45.783210",
+    "analysis": {
+      "is_quality": false,
+      "score": 3,
+      "reason": "Nội dung chủ yếu là quảng cáo bán bộ bài tập Toán lớp 1.  Mặc dù đề cập đến việc có lời giải chi tiết và bám sát chương trình, nhưng nội dung bài tập thực tế lại không được hiển thị đầy đủ. Chỉ có một vài dòng mô tả và nhiều dấu chấm lửng (...) cho thấy nội dung bị cắt xén.  Người dùng cần phải trả phí để xem toàn bộ nội dung, điều này làm giảm chất lượng và tính tiếp cận của tài liệu.",
+      "content_type": "advertisement",
+      "has_complete_info": false,
+      "educational_value": "low"
+    }
+  },
+  {
+    "url": "https://www.vietjack.com/de-kiem-tra-lop-1/bai-tap-tieng-viet-lop-1.jsp",
+    "timestamp": "2025-07-21T00:51:53.559978",
+    "analysis": {
+      "is_quality": false,
+      "score": 3,
+      "reason": "Nội dung chủ yếu là quảng cáo bán tài liệu.  Mặc dù đề cập đến bài tập Tiếng Việt lớp 1 và hứa hẹn lời giải chi tiết, nhưng phần lớn nội dung chỉ là thông tin về cách mua tài liệu, không cung cấp bài tập thực tế.  Phần nhỏ nội dung có sẵn chỉ là thông báo 'Nội dung đang được cập nhật...', không có giá trị giáo dục thực sự.",
+      "content_type": "advertisement",
+      "has_complete_info": false,
+      "educational_value": "low"
+    }
+  },
+  {
+    "url": "https://www.vietjack.com/de-kiem-tra-lop-2/de-kiem-tra-toan-lop-2.jsp",
+    "timestamp": "2025-07-21T00:52:02.987119",
+    "analysis": {
+      "is_quality": false,
+      "score": 3,
+      "reason": "Nội dung chủ yếu là quảng cáo bán bộ đề thi Toán lớp 2.  Mặc dù đề cập đến 200 đề thi và có đáp án, nhưng người dùng chỉ được xem thử một số ít đề.  Phần lớn nội dung là hướng dẫn thanh toán để mua trọn bộ đề.  Không có nội dung bài học, ví dụ hay lời giải chi tiết nào được cung cấp miễn phí.  Chỉ có tiêu đề và danh sách các đề thi, không có nội dung bài học thực tế.",
+      "content_type": "advertisement",
+      "has_complete_info": false,
+      "educational_value": "low"
+    }
+  },
+  {
+    "url": "https://www.vietjack.com/de-kiem-tra-lop-2/de-kiem-tra-tieng-viet-lop-2.jsp",
+    "timestamp": "2025-07-21T00:52:12.823408",
+    "analysis": {
+      "is_quality": false,
+      "score": 2,
+      "reason": "Nội dung chủ yếu là quảng cáo bán bộ đề thi Tiếng Việt lớp 2.  Chỉ cung cấp một số liên kết xem thử đề thi, không cung cấp nội dung đầy đủ của đề thi.  Thiếu thông tin chi tiết về nội dung đề thi, không có lời giải chi tiết.  Việc bán bộ đề thi với giá 150k không được xem là nội dung giáo dục chất lượng cao.",
+      "content_type": "advertisement",
+      "has_complete_info": false,
+      "educational_value": "low"
+    }
+  },
+  {
+    "url": "https://www.vietjack.com/de-kiem-tra-lop-2/de-kiem-tra-tieng-anh-lop-2.jsp",
+    "timestamp": "2025-07-21T00:52:20.647352",
+    "analysis": {
+      "is_quality": false,
+      "score": 3,
+      "reason": "Nội dung chủ yếu là quảng cáo bán bộ đề thi Tiếng Anh lớp 2.  Mặc dù đề cập đến việc có đáp án, nhưng không cung cấp bất kỳ đề thi nào trực tiếp. Chỉ có các liên kết xem thử và hướng dẫn mua trọn bộ.  Thông tin về nội dung đề thi rất hạn chế, không đủ để đánh giá chất lượng.  Việc chỉ cung cấp danh sách các đề thi mà không có nội dung cụ thể khiến nội dung này không có giá trị giáo dục cao.",
+      "content_type": "advertisement",
+      "has_complete_info": false,
+      "educational_value": "low"
+    }
+  },
+  {
+    "url": "https://www.vietjack.com/de-kiem-tra-lop-3/de-kiem-tra-toan-lop-3.jsp",
+    "timestamp": "2025-07-21T00:52:30.976776",
+    "analysis": {
+      "is_quality": false,
+      "score": 3,
+      "reason": "Nội dung chủ yếu là quảng cáo bán bộ đề thi Toán lớp 3.  Mặc dù đề cập đến 200 đề thi và có đáp án, nhưng người dùng chỉ được xem thử một số ít đề.  Phần lớn nội dung là hướng dẫn thanh toán để mua trọn bộ đề.  Không có nội dung bài học, ví dụ, hay lời giải chi tiết nào được cung cấp miễn phí.  Vì vậy, giá trị giáo dục rất thấp.",
+      "content_type": "advertisement",
+      "has_complete_info": false,
+      "educational_value": "low"
+    }
+  },
+  {
+    "url": "https://www.vietjack.com/de-kiem-tra-lop-3/de-kiem-tra-tieng-viet-lop-3.jsp",
+    "timestamp": "2025-07-21T00:52:40.932392",
+    "analysis": {
+      "is_quality": false,
+      "score": 3,
+      "reason": "Nội dung chủ yếu là quảng cáo bán bộ đề thi Tiếng Việt lớp 3.  Mặc dù đề cập đến 200 đề thi và có đáp án, nhưng người dùng chỉ được xem thử một số ít. Phần lớn nội dung là hướng dẫn thanh toán để mua trọn bộ.  Thiếu thông tin chi tiết về nội dung các đề thi, không có ví dụ cụ thể nào được trình bày.  Chỉ cung cấp danh sách các đề thi theo học kỳ và bộ sách giáo khoa, không phải là bài học đầy đủ.",
+      "content_type": "advertisement",
+      "has_complete_info": false,
+      "educational_value": "low"
+    }
+  },
+  {
+    "url": "https://www.vietjack.com/de-kiem-tra-lop-3/de-kiem-tra-tieng-anh-3.jsp",
+    "timestamp": "2025-07-21T00:52:48.858629",
+    "analysis": {
+      "is_quality": false,
+      "score": 3,
+      "reason": "Nội dung chủ yếu là quảng cáo bán bộ đề thi Tiếng Anh lớp 3.  Mặc dù đề cập đến 100 đề thi và có đáp án, nhưng người dùng chỉ được xem thử một vài đề.  Phần lớn nội dung là hướng dẫn thanh toán để mua trọn bộ.  Không có thông tin chi tiết về nội dung các đề thi, không có ví dụ hay lời giải chi tiết nào được cung cấp miễn phí.  Vì vậy, giá trị giáo dục rất thấp.",
+      "content_type": "advertisement",
+      "has_complete_info": false,
+      "educational_value": "low"
+    }
+  },
+  {
+    "url": "https://www.vietjack.com/de-kiem-tra-lop-4/de-kiem-tra-tieng-viet-lop-4.jsp",
+    "timestamp": "2025-07-21T00:52:57.616434",
+    "analysis": {
+      "is_quality": false,
+      "score": 3,
+      "reason": "Nội dung chủ yếu là quảng cáo bán bộ đề thi Tiếng Việt lớp 4.  Mặc dù đề cập đến 200 đề thi và có đáp án, nhưng chỉ cung cấp một số đề mẫu giới thiệu, phần lớn nội dung hướng người dùng đến việc mua trọn bộ.  Không có nội dung bài học, ví dụ, hay lời giải chi tiết nào được hiển thị trực tiếp.  Chỉ có các liên kết xem thử và hướng dẫn mua hàng.",
+      "content_type": "advertisement",
+      "has_complete_info": false,
+      "educational_value": "low"
+    }
+  },
+  {
+    "url": "https://www.vietjack.com/de-kiem-tra-lop-4/de-kiem-tra-tieng-anh-lop-4.jsp",
+    "timestamp": "2025-07-21T00:53:07.500135",
+    "analysis": {
+      "is_quality": false,
+      "score": 3,
+      "reason": "Nội dung chủ yếu là quảng cáo bán bộ đề thi Tiếng Anh lớp 4.  Mặc dù đề cập đến 200 đề thi và có đáp án, nhưng chỉ cung cấp các liên kết xem thử một số đề giới hạn và không cho phép truy cập đầy đủ nội dung đề thi.  Người dùng cần phải trả phí để mua trọn bộ, điều này làm giảm chất lượng và tính tiếp cận của tài liệu.  Nội dung không cung cấp bất kỳ thông tin bài học, lý thuyết hay ví dụ nào.",
+      "content_type": "advertisement",
+      "has_complete_info": false,
+      "educational_value": "low"
+    }
+  },
+  {
+    "url": "https://www.vietjack.com/de-kiem-tra-lop-5/de-kiem-tra-tieng-viet-lop-5.jsp",
+    "timestamp": "2025-07-21T00:53:15.451505",
+    "analysis": {
+      "is_quality": false,
+      "score": 3,
+      "reason": "Nội dung chủ yếu là quảng cáo bán bộ đề thi Tiếng Việt lớp 5.  Mặc dù đề cập đến 200 đề thi có đáp án, nhưng chỉ cung cấp một số đề mẫu giới thiệu rất ngắn gọn và yêu cầu người dùng phải trả phí để mua trọn bộ.  Không có nội dung bài học, ví dụ, hay lời giải chi tiết nào được cung cấp miễn phí.  Thông tin về đề thi thiếu sót, không đủ để đánh giá chất lượng.",
+      "content_type": "advertisement",
+      "has_complete_info": false,
+      "educational_value": "low"
+    }
+  },
+  {
+    "url": "https://www.vietjack.com/de-kiem-tra-lop-5/de-kiem-tra-tieng-anh-lop-5.jsp",
+    "timestamp": "2025-07-21T00:53:24.458060",
+    "analysis": {
+      "is_quality": false,
+      "score": 3,
+      "reason": "Nội dung chủ yếu là quảng cáo bán bộ đề thi Tiếng Anh lớp 5.  Mặc dù đề cập đến 200 đề thi và có đáp án, nhưng chỉ cung cấp các liên kết xem thử một số đề giới hạn và không cho phép truy cập đầy đủ nội dung đề thi.  Người dùng cần phải trả phí để mua trọn bộ, điều này làm giảm chất lượng và tính tiếp cận của tài liệu.  Nội dung không cung cấp bất kỳ thông tin bài học, lý thuyết hay ví dụ nào.",
+      "content_type": "advertisement",
+      "has_complete_info": false,
+      "educational_value": "low"
+    }
+  },
+  {
+    "url": "https://www.vietjack.com/soan-van-lop-6-kn/tom-tat-tac-pham-ngu-van-lop-6.jsp",
+    "timestamp": "2025-07-21T00:53:34.289983",
+    "analysis": {
+      "is_quality": false,
+      "score": 3,
+      "reason": "Nội dung chỉ là danh sách tóm tắt các tác phẩm Ngữ văn lớp 6 Kết nối tri thức, thiếu thông tin chi tiết về nội dung từng tác phẩm.  Không có phân tích, ví dụ, bài tập hay lời giải.  Chỉ cung cấp tiêu đề các bài học và một số liên kết đến các tài liệu khác, chủ yếu là quảng cáo các sản phẩm của Vietjack.  Do đó, giá trị giáo dục thấp.",
+      "content_type": "partial_content",
+      "has_complete_info": false,
+      "educational_value": "low"
+    }
+  },
+  {
+    "url": "https://www.vietjack.com/soan-van-lop-6-ct/tom-tat-tac-pham-ngu-van-lop-6.jsp",
+    "timestamp": "2025-07-21T00:53:42.037399",
+    "analysis": {
+      "is_quality": false,
+      "score": 3,
+      "reason": "Nội dung chỉ là danh sách các bài học trong sách Ngữ văn lớp 6 Chân trời sáng tạo và một số tóm tắt rất ngắn gọn, thiếu chi tiết.  Không có phân tích sâu, ví dụ, bài tập hay lời giải chi tiết.  Nội dung chủ yếu là một bảng mục lục với các tiêu đề bài học, không cung cấp thông tin học tập đầy đủ.  Phần cuối có quảng cáo sản phẩm của Vietjack.",
+      "content_type": "partial_content",
+      "has_complete_info": false,
+      "educational_value": "low"
+    }
+  },
+  {
+    "url": "https://www.vietjack.com/soan-van-lop-6-cd/tom-tat-tac-pham-ngu-van-lop-6.jsp",
+    "timestamp": "2025-07-21T00:53:50.627849",
+    "analysis": {
+      "is_quality": false,
+      "score": 3,
+      "reason": "Nội dung chỉ cung cấp tóm tắt các tác phẩm Ngữ văn lớp 6 Cánh diều mà không có phân tích sâu hoặc ví dụ minh họa.  Chỉ là một danh sách các liên kết đến các tài liệu khác, không có nội dung bài học đầy đủ. Thiếu phần bài tập và đáp án.  Có phần quảng cáo sản phẩm của Vietjack.",
+      "content_type": "partial_content",
+      "has_complete_info": false,
+      "educational_value": "low"
+    }
+  },
+  {
+    "url": "https://www.vietjack.com/de-kiem-tra-lop-6/de-kiem-tra-ngu-van-6.jsp",
+    "timestamp": "2025-07-21T00:54:00.507322",
+    "analysis": {
+      "is_quality": false,
+      "score": 2,
+      "reason": "Nội dung chủ yếu là quảng cáo bán bộ đề thi Ngữ văn 6.  Chỉ cung cấp một số liên kết xem thử đề thi, không cung cấp nội dung đầy đủ của đề thi.  Thông tin về đề thi rất sơ sài, thiếu chi tiết và không có lời giải chi tiết.  Việc yêu cầu thanh toán để xem toàn bộ đề thi làm giảm đáng kể giá trị giáo dục của nội dung.",
+      "content_type": "advertisement",
+      "has_complete_info": false,
+      "educational_value": "low"
+    }
+  },
+  {
+    "url": "https://www.vietjack.com/de-kiem-tra-lop-6/de-kiem-tra-toan-6.jsp",
+    "timestamp": "2025-07-21T00:54:08.415587",
+    "analysis": {
+      "is_quality": false,
+      "score": 3,
+      "reason": "Nội dung chủ yếu là quảng cáo bán bộ đề thi Toán 6.  Mặc dù đề cập đến việc có đáp án và đề thi cho cả học kì 1 và 2, nhưng người dùng chỉ được xem thử một phần nhỏ.  Phần lớn nội dung là hướng dẫn thanh toán để mua trọn bộ đề.  Không có nội dung bài học, ví dụ hay lời giải chi tiết nào được cung cấp miễn phí.  Vì vậy, giá trị giáo dục rất thấp.",
+      "content_type": "advertisement",
+      "has_complete_info": false,
+      "educational_value": "low"
+    }
+  },
+  {
+    "url": "https://www.vietjack.com/de-kiem-tra-lop-6/de-kiem-tra-tieng-anh-6.jsp",
+    "timestamp": "2025-07-21T00:54:17.247509",
+    "analysis": {
+      "is_quality": false,
+      "score": 2,
+      "reason": "Nội dung chủ yếu là quảng cáo bán bộ đề thi Tiếng Anh 6.  Chỉ cung cấp một số liên kết xem thử đề thi rất ngắn gọn, không có nội dung bài học, lời giải chi tiết hay phân tích nào.  Thông tin về đề thi không đầy đủ, chỉ là danh sách các đề thi với số lượng đề trong mỗi phần.  Việc yêu cầu thanh toán để xem toàn bộ đề thi làm giảm đáng kể giá trị giáo dục của nội dung.",
+      "content_type": "advertisement",
+      "has_complete_info": false,
+      "educational_value": "low"
+    }
+  },
+  {
+    "url": "https://www.vietjack.com/soan-van-lop-7-kn/tom-tat-tac-pham-ngu-van-lop-7.jsp",
+    "timestamp": "2025-07-21T00:54:26.942582",
+    "analysis": {
+      "is_quality": false,
+      "score": 3,
+      "reason": "Nội dung chỉ là một danh sách tóm tắt các tác phẩm Ngữ văn lớp 7.  Không có nội dung chi tiết của bất kỳ tác phẩm nào, chỉ là một bản tóm tắt tổng quan và các liên kết đến các tài liệu khác. Thiếu phần lý thuyết, ví dụ, bài tập và đáp án chi tiết.  Nội dung quá ngắn và thiếu thông tin cụ thể về từng tác phẩm.",
+      "content_type": "partial_content",
+      "has_complete_info": false,
+      "educational_value": "low"
+    }
+  },
+  {
+    "url": "https://www.vietjack.com/soan-van-lop-7-ct/tom-tat-tac-pham-ngu-van-lop-7.jsp",
+    "timestamp": "2025-07-21T00:54:34.743943",
+    "analysis": {
+      "is_quality": false,
+      "score": 3,
+      "reason": "Nội dung chỉ là một danh sách tóm tắt các bài học Ngữ văn lớp 7 theo sách Chân trời sáng tạo.  Không có nội dung chi tiết của bất kỳ bài học nào, chỉ liệt kê tên bài và thể loại. Thiếu hoàn toàn phần lý thuyết, ví dụ, bài tập và đáp án.  Nội dung mang tính chất mục lục hơn là bài học đầy đủ.  Phần cuối có quảng cáo sản phẩm của Vietjack.",
+      "content_type": "partial_content",
+      "has_complete_info": false,
+      "educational_value": "low"
+    }
+  },
+  {
+    "url": "https://www.vietjack.com/soan-van-lop-7-cd/tom-tat-tac-pham-ngu-van-lop-7.jsp",
+    "timestamp": "2025-07-21T00:54:43.468602",
+    "analysis": {
+      "is_quality": false,
+      "score": 3,
+      "reason": "Nội dung chỉ cung cấp tóm tắt các tác phẩm Ngữ văn lớp 7 Cánh diều, thiếu phần lý thuyết, ví dụ và bài tập.  Chỉ là một danh sách các tóm tắt và các liên kết đến các tài liệu khác.  Không có phân tích sâu về các tác phẩm văn học.  Nội dung chủ yếu là mục lục và quảng cáo cho các tài liệu khác của Vietjack.",
+      "content_type": "partial_content",
+      "has_complete_info": false,
+      "educational_value": "low"
+    }
+  },
+  {
+    "url": "https://www.vietjack.com/de-kiem-tra-lop-7/de-kiem-tra-toan-7.jsp",
+    "timestamp": "2025-07-21T00:54:53.375620",
+    "analysis": {
+      "is_quality": false,
+      "score": 3,
+      "reason": "Nội dung chủ yếu là quảng cáo bán bộ đề thi Toán 7.  Mặc dù đề cập đến 200 đề thi và có đáp án, nhưng người dùng chỉ được xem thử một số ít đề.  Phần lớn nội dung hướng dẫn người dùng thanh toán để mua trọn bộ đề.  Không có nội dung bài học, ví dụ, hay lời giải chi tiết nào được cung cấp miễn phí.  Thông tin về đề thi chỉ là danh sách các đề, thiếu thông tin cụ thể về nội dung từng đề.",
+      "content_type": "advertisement",
+      "has_complete_info": false,
+      "educational_value": "low"
+    }
+  },
+  {
+    "url": "https://www.vietjack.com/de-kiem-tra-lop-7/de-kiem-tra-ngu-van-7.jsp",
+    "timestamp": "2025-07-21T00:55:01.311755",
+    "analysis": {
+      "is_quality": false,
+      "score": 3,
+      "reason": "Nội dung chủ yếu là quảng cáo bán bộ đề thi Ngữ Văn 7.  Mặc dù đề cập đến việc có đáp án chi tiết, nhưng người dùng cần phải trả phí để truy cập.  Chỉ có một số ít đề thi được xem thử, không đủ để đánh giá chất lượng của toàn bộ bộ đề.  Nội dung không cung cấp bài học, lý thuyết hay ví dụ minh họa.  Việc sử dụng năm 2025 trong tiêu đề gây hiểu nhầm, có thể là lỗi thời gian hoặc chiến lược marketing.",
+      "content_type": "advertisement",
+      "has_complete_info": false,
+      "educational_value": "low"
+    }
+  }
+]

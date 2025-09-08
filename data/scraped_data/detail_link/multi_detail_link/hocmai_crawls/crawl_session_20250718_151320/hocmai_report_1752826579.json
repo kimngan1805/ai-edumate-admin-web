@@ -1,0 +1,173 @@
+{
+  "status": "completed",
+  "timestamp": "2025-07-18 15:16:19",
+  "total_lessons_crawled": 20,
+  "successful_downloads": 15,
+  "failed_downloads": 5,
+  "download_results": [
+    {
+      "status": "success",
+      "title": "Tổng hợp công thức Vật lí 11",
+      "images_count": 4,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/Tổng_hợp_công_thức_Vật_lí_11.pdf",
+      "lesson_number": 1,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=744"
+    },
+    {
+      "status": "success",
+      "title": "TOÁN 9: CHUYÊN ĐỀ RÚT GỌN BIỂU THỨC VÀ CÁC DẠNG TOÁN LIÊN QUAN",
+      "images_count": 32,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/TOÁN_9_CHUYÊN_ĐỀ_RÚT_GỌN_BIỂU_THỨC_VÀ_CÁC_DẠNG_TOÁN_LIÊN_QUAN.pdf",
+      "lesson_number": 2,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=15632"
+    },
+    {
+      "status": "success",
+      "title": "Công thức lượng giác lớp 11",
+      "images_count": 2,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/Công_thức_lượng_giác_lớp_11.pdf",
+      "lesson_number": 3,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=88"
+    },
+    {
+      "status": "success",
+      "title": "Tổng hợp công thức tính diện tích đa giác",
+      "images_count": 8,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/Tổng_hợp_công_thức_tính_diện_tích_đa_giác.pdf",
+      "lesson_number": 4,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=18831"
+    },
+    {
+      "status": "success",
+      "title": "Cách viết câu mở đầu giúp bài trở nên văn ấn tượng",
+      "images_count": 4,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/Cách_viết_câu_mở_đầu_giúp_bài_trở_nên_văn_ấn_tượng.pdf",
+      "lesson_number": 5,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=18818"
+    },
+    {
+      "status": "success",
+      "title": "Đề thi thử THPTQG năm 2018 - Môn Vật Lý - Đề KSCL Học kì 1 - Nam Định",
+      "images_count": 5,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/Đề_thi_thử_THPTQG_năm_2018_-_Môn_Vật_Lý_-_Đề_KSCL_Học_kì_1_-_Nam_Định.pdf",
+      "lesson_number": 6,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=444"
+    },
+    {
+      "status": "success",
+      "title": "Đề luyện thi THPTQG môn Vật lí - đề 1 - thầy Phạm Trung Dũng",
+      "images_count": 6,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/Đề_luyện_thi_THPTQG_môn_Vật_lí_-_đề_1_-_thầy_Phạm_Trung_Dũng.pdf",
+      "lesson_number": 7,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=83"
+    },
+    {
+      "status": "error",
+      "message": "No images found",
+      "pdf_path": null,
+      "lesson_number": 8,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=18835"
+    },
+    {
+      "status": "success",
+      "title": "1001 phương trình phản ứng hóa học phức tạp nhất",
+      "images_count": 30,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/1001_phương_trình_phản_ứng_hóa_học_phức_tạp_nhất.pdf",
+      "lesson_number": 9,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=13078"
+    },
+    {
+      "status": "success",
+      "title": "TÓM TẮT KIẾN THỨC VẬT LÍ 11 HỌC KÌ 2",
+      "images_count": 26,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/TÓM_TẮT_KIẾN_THỨC_VẬT_LÍ_11_HỌC_KÌ_2.pdf",
+      "lesson_number": 10,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=10960"
+    },
+    {
+      "status": "error",
+      "message": "No images found",
+      "pdf_path": null,
+      "lesson_number": 11,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=18834"
+    },
+    {
+      "status": "success",
+      "title": "Tổng hợp công thức Sinh học 12",
+      "images_count": 10,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/Tổng_hợp_công_thức_Sinh_học_12.pdf",
+      "lesson_number": 12,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=1314"
+    },
+    {
+      "status": "error",
+      "message": "No images found",
+      "pdf_path": null,
+      "lesson_number": 13,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=414"
+    },
+    {
+      "status": "error",
+      "message": "No images found",
+      "pdf_path": null,
+      "lesson_number": 14,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=18828"
+    },
+    {
+      "status": "success",
+      "title": "Cách dùng Used to, be used to, get used to",
+      "images_count": 6,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/Cách_dùng_Used_to_be_used_to_get_used_to.pdf",
+      "lesson_number": 15,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=18832"
+    },
+    {
+      "status": "success",
+      "title": "Tổng hợp công thức Vật lí lớp 10",
+      "images_count": 16,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/Tổng_hợp_công_thức_Vật_lí_lớp_10.pdf",
+      "lesson_number": 16,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=86"
+    },
+    {
+      "status": "success",
+      "title": "Thứ Tự Thực Hiện Các Phép Tính",
+      "images_count": 7,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/Thứ_Tự_Thực_Hiện_Các_Phép_Tính.pdf",
+      "lesson_number": 17,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=18830"
+    },
+    {
+      "status": "success",
+      "title": "Tóm tắt công thức và lý thuyết hình học lớp 11",
+      "images_count": 13,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/Tóm_tắt_công_thức_và_lý_thuyết_hình_học_lớp_11.pdf",
+      "lesson_number": 18,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=1802"
+    },
+    {
+      "status": "error",
+      "message": "No images found",
+      "pdf_path": null,
+      "lesson_number": 19,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=1236"
+    },
+    {
+      "status": "success",
+      "title": "ĐỀ CƯƠNG ÔN TẬP HÈ LỚP 6 LÊN LỚP 7 MÔN TOÁN",
+      "images_count": 15,
+      "pdf_path": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai/ĐỀ_CƯƠNG_ÔN_TẬP_HÈ_LỚP_6_LÊN_LỚP_7_MÔN_TOÁN.pdf",
+      "lesson_number": 20,
+      "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=15983"
+    }
+  ],
+  "download_folders": {
+    "base_output_dir": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls",
+    "common_pdfs_dir": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/pdfs_from_hocmai",
+    "current_session_images_dir": "/Users/kimngan/IdeaProjects/ai-education/data/scraped_data/detail_link/multi_detail_link/hocmai_crawls/crawl_session_20250718_151320/images"
+  },
+  "minio_upload_summary": {
+    "status": "skipped",
+    "reason": "PDF processor not initialized"
+  }
+}

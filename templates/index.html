@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIVA CHATBOT - Student Dashboard</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    
+    <!-- MODERN PROFESSIONAL SIDEBAR CSS -->
+    <style>
+        /* MODERN SIDEBAR DESIGN */
+        .sidebar {
+            width: 320px !important;
+            min-width: 320px !important;
+            max-width: 320px !important;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+            position: fixed !important;
+            left: 0 !important;
+            top: 0 !important;
+            height: 100vh !important;
+            z-index: 1000 !important;
+            box-shadow: 0 10px 40px rgba(102, 126, 234, 0.15) !important;
+            backdrop-filter: blur(10px) !important;
+            border-right: 1px solid rgba(255, 255, 255, 0.1) !important;
+        }
+        
+        .main-content-dashboard {
+            margin-left: 320px !important;
+            width: calc(100% - 320px) !important;
+            padding: 30px !important;
+            background: #f8fafc !important;
+        }
+        
+        /* MODERN HEADER STYLING */
+        .sidebar-header {
+            padding: 35px 25px 30px !important;
+            border-bottom: 1px solid rgba(255,255,255,0.15) !important;
+            background: rgba(255,255,255,0.08) !important;
+            backdrop-filter: blur(10px) !important;
+            position: relative !important;
+        }
+        
+        .sidebar-header::before {
+            content: '' !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+            background: linear-gradient(45deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05)) !important;
+            border-radius: 0 0 20px 20px !important;
+        }
+        
+        .profile-avatar {
+            width: 85px !important;
+            height: 85px !important;
+            background: rgba(255,255,255,0.2) !important;
+            border: 3px solid rgba(255,255,255,0.3) !important;
+            border-radius: 50% !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            margin: 0 auto 20px !important;
+            font-size: 34px !important;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.3) !important;
+            position: relative !important;
+            z-index: 2 !important;
+            transition: transform 0.3s ease !important;
+        }
+        
+        .profile-avatar:hover {
+            transform: scale(1.05) !important;
+        }
+        
+        .sidebar-header h2 {
+            font-size: 1.5em !important;
+            font-weight: 800 !important;
+            letter-spacing: 2px !important;
+            margin-top: 8px !important;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.3) !important;
+            position: relative !important;
+            z-index: 2 !important;
+            background: linear-gradient(45deg, #ffffff, #e8f0fe) !important;
+            -webkit-background-clip: text !important;
+            -webkit-text-fill-color: transparent !important;
+            background-clip: text !important;
+        }
+        
+        /* MODERN NAVIGATION STYLING */
+        .sidebar-nav ul {
+            padding: 25px 0 !important;
+            margin: 0 !important;
+        }
+        
+        .sidebar-nav .nav-item {
+            display: flex !important;
+            align-items: center !important;
+            color: rgba(255,255,255,0.9) !important;
+            text-decoration: none !important;
+            padding: 16px 25px !important;
+            margin: 4px 15px 4px 0 !important;
+            font-size: 15px !important;
+            font-weight: 600 !important;
+            border-radius: 0 25px 25px 0 !important;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+            position: relative !important;
+            overflow: hidden !important;
+            backdrop-filter: blur(10px) !important;
+        }
+        
+        .sidebar-nav .nav-item::before {
+            content: '' !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: -100% !important;
+            width: 100% !important;
+            height: 100% !important;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent) !important;
+            transition: left 0.6s ease !important;
+        }
+        
+        .sidebar-nav .nav-item:hover::before {
+            left: 100% !important;
+        }
+        
+        .sidebar-nav .nav-item:hover,
+        .sidebar-nav .nav-item.active {
+            background: rgba(255,255,255,0.15) !important;
+            border-right: 4px solid #ffffff !important;
+            transform: translateX(10px) !important;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15) !important;
+            margin-right: 0 !important;
+            color: #ffffff !important;
+        }
+        
+        .sidebar-nav .nav-item:hover {
+            background: rgba(255,255,255,0.12) !important;
+        }
+        
+        .sidebar-nav .nav-item.active {
+            background: rgba(255,255,255,0.2) !important;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.3) !important;
+        }
+        
+        .sidebar-nav .nav-item i {
+            width: 24px !important;
+            font-size: 17px !important;
+            margin-right: 16px !important;
+            text-align: center !important;
+            opacity: 0.9 !important;
+            transition: all 0.3s ease !important;
+        }
+        
+        .sidebar-nav .nav-item:hover i,
+        .sidebar-nav .nav-item.active i {
+            opacity: 1 !important;
+            transform: scale(1.1) !important;
+        }
+        
+        /* MODERN BOTTOM NAVIGATION */
+        .bottom-nav {
+            position: absolute !important;
+            bottom: 25px !important;
+            width: 100% !important;
+            padding: 0 15px !important;
+        }
+        
+        .bottom-nav .nav-item {
+            margin: 4px 15px 4px 0 !important;
+            font-size: 14px !important;
+            padding: 14px 25px !important;
+            opacity: 0.8 !important;
+            border-radius: 0 20px 20px 0 !important;
+        }
+        
+        .bottom-nav .nav-item:hover {
+            opacity: 1 !important;
+            background: rgba(255,255,255,0.1) !important;
+        }
+        
+        /* MODERN WELCOME SECTION */
+        .welcome-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%) !important;
+            border-radius: 20px !important;
+            box-shadow: 0 20px 40px rgba(102, 126, 234, 0.15) !important;
+            border: 1px solid rgba(255,255,255,0.1) !important;
+        }
+        
+        .welcome-content h1 {
+            background: linear-gradient(45deg, #ffffff, #f8faff) !important;
+            -webkit-background-clip: text !important;
+            -webkit-text-fill-color: transparent !important;
+            background-clip: text !important;
+            font-weight: 800 !important;
+            text-shadow: none !important;
+        }
+        
+        /* MODERN CARD STYLING */
+        .file-upload-section-bottom {
+            background: rgba(255,255,255,0.95) !important;
+            backdrop-filter: blur(20px) !important;
+            border: 1px solid rgba(255,255,255,0.2) !important;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.08) !important;
+        }
+        
+        .data-source-option {
+            background: rgba(255,255,255,0.8) !important;
+            backdrop-filter: blur(10px) !important;
+            border: 2px solid rgba(102, 126, 234, 0.1) !important;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+        }
+        
+        .data-source-option:hover {
+            background: rgba(255,255,255,0.95) !important;
+            border-color: rgba(102, 126, 234, 0.3) !important;
+            transform: translateY(-5px) !important;
+            box-shadow: 0 15px 35px rgba(102, 126, 234, 0.15) !important;
+        }
+        
+        /* MODERN BUTTONS */
+        .choose-file-button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+            border: none !important;
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3) !important;
+            font-weight: 600 !important;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+        }
+        
+        .choose-file-button:hover {
+            transform: translateY(-2px) !important;
+            box-shadow: 0 12px 25px rgba(102, 126, 234, 0.4) !important;
+        }
+        
+        /* SMOOTH SCROLLBAR */
+        .sidebar::-webkit-scrollbar {
+            width: 6px !important;
+        }
+        
+        .sidebar::-webkit-scrollbar-track {
+            background: rgba(255,255,255,0.1) !important;
+        }
+        
+        .sidebar::-webkit-scrollbar-thumb {
+            background: rgba(255,255,255,0.3) !important;
+            border-radius: 3px !important;
+        }
+        
+        .sidebar::-webkit-scrollbar-thumb:hover {
+            background: rgba(255,255,255,0.5) !important;
+        }
+    </style>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+</head>
+<body>
+    <div class="dashboard-container">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="profile-avatar">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h2>EDUMATE ADMIN</h2>
+            </div>
+            <nav class="sidebar-nav">
+                <ul>
+                    <li><a href="/" class="nav-item active"><i class="fas fa-cogs"></i> <span>Data Processing</span></a></li>
+                    <li><a href="/web_scarching.html" class="nav-item"><i class="fas fa-gamepad"></i> <span>Web Scraping</span></a></li>
+                </ul>
+                <ul class="bottom-nav">
+                    <li><a href="#" class="nav-item"><i class="fas fa-cog"></i> <span>Settings</span></a></li>
+                    <li><a href="#" class="nav-item"><i class="fas fa-sign-out-alt"></i> <span>Logout</span></a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content-dashboard">
+            <header class="top-header-bar">
+                <div class="breadcrumb-container">
+                    <span class="breadcrumb-item">Data Processing</span>
+                   
+                </div>
+                <div class="header-icons">
+                    <!-- Removed header icons to clean up the interface -->
+                </div>
+            </header>
+
+            <section class="welcome-section">
+                <div class="welcome-content">
+                    <h1>ADMIN PAGE</h1>
+                </div>
+                <div class="welcome-illustration">
+                </div>
+            </section>
+
+            <section class="file-upload-section-bottom">
+                <div class="file-upload-dashboard-section">
+                    <h2 style="text-align: center; margin-bottom: 30px; color: #333; font-size: 1.8em;">
+                        <i class="fas fa-database"></i> Select Data Source
+                    </h2>
+
+                    <div class="data-source-container" id="dataSourceContainer">
+                        <div class="data-source-option minio">
+                            <h3><i class="fas fa-cloud-download-alt"></i> Scrape Content from MinIO</h3>
+                            <div class="file-drop-zone" id="folderSelectZone">
+                                <i class="fas fa-folder-open" style="font-size: 2em; color: #007bff; margin-bottom: 10px;"></i>
+                                <p>Select folder from MinIO to scrape content</p>
+                              <select id="minioFolderSelect" class="select2-hidden-accessible" style="width: 100%;">
+                                 <option value="">-- Select folder --</option>
+                                </select>
+                                <button class="choose-file-button" id="loadFolderButton">
+                                    <i class="fas fa-sync-alt"></i> Load Folder List
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="data-source-option upload" id="uploadOption">
+                            <h3><i class="fas fa-cloud-upload-alt"></i> Upload New Files</h3>
+                            <div class="file-drop-zone" id="fileDropZone">
+                                <i class="fas fa-file-upload" style="font-size: 2em; color: #28a745; margin-bottom: 10px;"></i>
+                                <p>Drag and drop files or folders here</p>
+                                <small style="color: #999; margin-bottom: 15px;">Supported: PDF, PPTX, DOCX</small>
+
+                                <input type="file" id="fileInput" accept=".pdf,.pptx,.docx" multiple style="display: none;">
+
+                                <input type="file" id="folderInput" webkitdirectory directory style="display: none;">
+
+                                <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+                                    <button class="choose-file-button" id="chooseFileButton">
+                                        <i class="fas fa-file"></i> Choose File
+                                    </button>
+                                    <button class="choose-file-button" id="chooseFolderButton">
+                                        <i class="fas fa-folder"></i> Choose Folder
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                       <div class="data-source-option metadata" id="metadataPreviewBox" style="display: none;">
+                            <h3><i class="fas fa-tags"></i> Inferred Metadata</h3>
+
+                            <div id="folderInfoBox" style="display: none; margin-bottom: 15px; padding: 10px; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #007bff;">
+                                <p><strong>Folder:</strong> <span id="folderName">--</span></p>
+                                <p><strong>Total Files:</strong> <span id="totalFiles">--</span></p>
+                                <p><strong>Current File:</strong> <span id="currentFileIndex">--</span> / <span id="totalFilesDisplay">--</span></p>
+                            </div>
+
+                            <div class="metadata-preview-content" id="metadataContentBox">
+                                <p><strong>File Name:</strong> <span id="metaFilename">--</span></p>
+                                <p><strong>Pages:</strong> <span id="metaPages">--</span></p>
+                                <p><strong>Subject:</strong> <span id="metaSubject">--</span></p>
+                                <p><strong>Document Type:</strong> <span id="metaType">--</span></p>
+                                <p><strong>Level:</strong> <span id="metaLevel">--</span></p>
+                            </div>
+
+                            <div style="margin-top: 15px; text-align: center;">
+                                <div id="folderNavigationButtons" style="display: none; margin-bottom: 15px;">
+                                    <button class="choose-file-button" id="prevFileBtn" style="background-color: #6c757d; border-color: #6c757d; margin-right: 10px;">
+                                        <i class="fas fa-chevron-left"></i> Previous File
+                                    </button>
+                                    <button class="choose-file-button" id="nextFileBtn" style="background-color: #6c757d; border-color: #6c757d;">
+                                        <i class="fas fa-chevron-right"></i> Next File
+                                    </button>
+                                </div>
+
+                                <button class="choose-file-button" id="saveToMinioBtn" onclick="saveToMinio()" style="display: none; margin-right: 10px; background-color: #28a745; border-color: #28a745;">
+                                    <i class="fas fa-save"></i> Save to MinIO
+                                </button>
+
+                                <button class="choose-file-button" id="saveAllToMinioBtn" style="display: none; margin-right: 10px; background-color: #17a2b8; border-color: #17a2b8;">
+                                    <i class="fas fa-save"></i> Save All to MinIO
+                                </button>
+
+                                <button class="choose-file-button btn-reset-upload" onclick="resetUpload()">
+                                    <i class="fas fa-undo"></i> Choose Another File
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="processing-section">
+                        <h4><i class="fas fa-rocket"></i> Start Data Processing</h4>
+                        <button id="startProcessingBtn" style="display: none;">
+                            <i class="fas fa-play"></i> Extract → Chunking → Embedding → Save DB
+                        </button>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="file-upload-section-bottom" id="processingSection" style="display: none;">
+                <div class="file-upload-dashboard-section">
+                    <h3 style="text-align: center; margin-bottom: 30px; color: #333; font-size: 1.8em;">
+                        <i class="fas fa-chart-line" style="color: #667eea; margin-right: 10px;"></i> 
+                        Processing Data in Vector Database
+                    </h3>
+
+                    <div class="progress-container">
+                        <div class="progress-steps-horizontal">
+                            <div class="progress-step-box pending" id="stepBox1">
+                                <i class="fas fa-download step-icon"></i>
+                                <div class="step-title">Load Data</div>
+                                <div class="step-description">Pending...</div>
+                            </div>
+
+                            <div class="progress-arrow" id="arrow1"></div>
+
+                            <div class="progress-step-box pending" id="stepBox2">
+                                <i class="fas fa-file-alt step-icon"></i>
+                                <div class="step-title">Data Extraction</div>
+                                <div class="step-description">Pending...</div>
+                            </div>
+
+                            <div class="progress-arrow" id="arrow2"></div>
+
+                            <div class="progress-step-box pending" id="stepBox3">
+                                <i class="fas fa-cut step-icon"></i>
+                                <div class="step-title">Chunking</div>
+                                <div class="step-description">Pending...</div>
+                            </div>
+
+                            <div class="progress-arrow" id="arrow3"></div>
+
+                            <div class="progress-step-box pending" id="stepBox4">
+                                <i class="fas fa-brain step-icon"></i>
+                                <div class="step-title">Embedding</div>
+                                <div class="step-description">Pending...</div>
+                            </div>
+
+                            <div class="progress-arrow" id="arrow4"></div>
+
+                            <div class="progress-step-box pending" id="stepBox5">
+                                <i class="fas fa-database step-icon"></i>
+                                <div class="step-title">Save MongoDB</div>
+                                <div class="step-description">Pending...</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="processingResults" class="metadata-cards-container">
+                        <div id="sourceStatus" style="margin-bottom: 20px; padding: 20px; background: linear-gradient(135deg, #e3f2fd 0%, #f3e5f5 100%); border-radius: 15px; display: none; border-left: 5px solid #667eea; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.1);">
+                            <strong style="color: #667eea; font-size: 1.1em;">
+                                <i class="fas fa-info-circle" style="margin-right: 8px;"></i> Data Source:
+                            </strong> 
+                            <span id="sourceInfo" style="color: #333; font-weight: 500;"></span>
+                        </div>
+
+                        <div id="defaultMessage">
+                            <div style="text-align: center; padding: 60px 40px; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-radius: 20px; border: 2px dashed #dee2e6;">
+                                <i class="fas fa-hand-point-up" style="font-size: 3em; color: #6c757d; margin-bottom: 20px; display: block; opacity: 0.7;"></i>
+                                <p style="color: #6c757d; font-size: 1.2em; font-weight: 500; margin: 0; font-style: italic;">
+                                    Please select a data source to begin processing
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="finalResults" style="display: none;">
+                            <div style="background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%); padding: 25px; border-radius: 15px; border-left: 5px solid #28a745; box-shadow: 0 6px 20px rgba(40, 167, 69, 0.15);">
+                                <h4 style="color: #155724; margin-bottom: 15px; font-size: 1.3em;">
+                                    <i class="fas fa-check-circle" style="font-size: 1.2em; margin-right: 10px;"></i>
+                                    <strong>Processing Completed!</strong>
+                                </h4>
+                                <div id="finalResultsContent" style="margin-top: 15px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="/static/js/script.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+</body>
+</html>

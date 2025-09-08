@@ -1,0 +1,613 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f6fa;
+    color: #333;
+}
+
+.dashboard-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 20px 0;
+    position: fixed;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.sidebar-header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.profile-avatar {
+    width: 60px;
+    height: 60px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 10px;
+    font-size: 24px;
+}
+
+.sidebar-nav ul {
+    list-style: none;
+    padding: 20px 0;
+}
+
+.sidebar-nav .nav-item {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin: 2px 0;
+    transition: all 0.3s ease;
+}
+
+.sidebar-nav .nav-item:hover,
+.sidebar-nav .nav-item.active {
+    background: rgba(255,255,255,0.1);
+    border-right: 3px solid white;
+}
+
+.sidebar-nav .nav-item i {
+    margin-right: 10px;
+    width: 20px;
+}
+
+.bottom-nav {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.main-content-dashboard {
+    flex: 1;
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.top-header-bar {
+    background: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.breadcrumb-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #666;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon-wrapper {
+    width: 40px;
+    height: 40px;
+    background: #f8f9fa;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.icon-wrapper:hover {
+    background: #e9ecef;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    background: #f8f9fa;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.user-profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-info span {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.user-info small {
+    color: #666;
+    font-size: 12px;
+}
+
+.welcome-section {
+    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+    padding: 40px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.welcome-content h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.welcome-illustration img {
+    width: 280px;
+    height: 230px;
+    border-radius: 15px;
+}
+
+.file-upload-section-bottom {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+/* Layout ngang cho 2 khung */
+.data-source-container {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.data-source-option {
+    flex: 1;
+    border: 2px solid #e9ecef;
+    border-radius: 15px;
+    padding: 25px;
+    transition: all 0.3s ease;
+    background: #f8f9fa;
+}
+
+.data-source-option:hover {
+    border-color: #6c5ce7;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(108, 92, 231, 0.15);
+}
+
+.data-source-option h3 {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.data-source-option.minio h3 {
+    color: #007bff;
+}
+
+.data-source-option.upload h3 {
+    color: #28a745;
+}
+
+.file-drop-zone {
+    border: 2px dashed #ddd;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    background: white;
+    transition: all 0.3s ease;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.file-drop-zone:hover {
+    border-color: #6c5ce7;
+    background: #f8f9ff;
+}
+
+.file-drop-zone.dragover {
+    border-color: #6c5ce7;
+    background: #f0f8ff;
+}
+
+.file-drop-zone p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#minioFolderSelect {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 14px;
+}
+
+#fileInput {
+    display: none;
+}
+
+.choose-file-button {
+    background: linear-gradient(135deg, #6c5ce7 0%, #a8edea 100%);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.choose-file-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(108, 92, 231, 0.3);
+}
+
+.processing-section {
+    text-align: center;
+    padding: 25px;
+    background: #f8f9fa;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.processing-section h4 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 1.3em;
+}
+
+#startProcessingBtn {
+    padding: 15px 40px;
+    background: linear-gradient(135deg, #6c5ce7 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    display: none;
+}
+
+#startProcessingBtn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(108, 92, 231, 0.4);
+}
+
+#processingStatus {
+    margin-top: 15px;
+    color: #666;
+    font-size: 14px;
+}
+
+.metadata-cards-container {
+    margin-top: 20px;
+}
+
+.placeholder-text-upload-area {
+    text-align: center;
+    color: #999;
+    font-style: italic;
+    padding: 40px;
+}
+
+.progress-container {
+    margin: 30px 0;
+}
+
+.progress-steps-horizontal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+.progress-step-box {
+    position: relative;
+    flex: 1;
+    max-width: 180px;
+    padding: 20px 15px;
+    background: #f8f9fa;
+    border: 2px solid #e9ecef;
+    border-radius: 12px;
+    text-align: center;
+    transition: all 0.3s ease;
+    color: #666;
+}
+
+.progress-step-box.pending {
+    background: #f8f9fa;
+    border-color: #e9ecef;
+    color: #666;
+}
+
+.progress-step-box.active {
+    background: #fff3cd;
+    border-color: #ffc107;
+    color: #856404;
+    box-shadow: 0 4px 15px rgba(255, 193, 7, 0.3);
+    transform: scale(1.05);
+}
+
+.progress-step-box.completed {
+    background: #d4edda;
+    border-color: #28a745;
+    color: #155724;
+    box-shadow: 0 4px 15px rgba(40, 167, 69, 0.2);
+}
+
+.progress-step-box.error {
+    background: #f8d7da;
+    border-color: #dc3545;
+    color: #721c24;
+}
+
+.progress-step-box .step-icon {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.progress-step-box .step-title {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.progress-step-box .step-description {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.progress-arrow {
+    width: 0;
+    height: 0;
+    border-left: 15px solid #e9ecef;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    margin: 0 -2px;
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+
+.progress-arrow.active {
+    border-left-color: #ffc107;
+    transform: scale(1.2);
+}
+
+.progress-arrow.completed {
+    border-left-color: #28a745;
+}
+
+.progress-arrow.error {
+    border-left-color: #dc3545;
+}
+
+.step-status {
+    margin-bottom: 10px;
+    padding: 12px;
+    border-radius: 8px;
+    background: #f8f9fa;
+    display: none;
+    border-left: 4px solid #ddd;
+}
+
+.step-status.active {
+    border-left-color: #6c5ce7;
+    background: #f0f8ff;
+}
+
+.step-status.completed {
+    border-left-color: #28a745;
+    background: #f0fff4;
+}
+
+.step-status i {
+    margin-right: 10px;
+    width: 20px;
+}
+
+#finalResults {
+    padding: 20px;
+    background: #d4edda;
+    border: 1px solid #c3e6cb;
+    border-radius: 10px;
+    color: #155724;
+    display: none;
+}
+.data-source-option.metadata {
+border: 2px dashed #a29bfe;
+padding: 20px;
+border-radius: 8px;
+background-color: #f9f9ff;
+text-align: left;
+}
+
+.metadata-preview-content p {
+    margin: 8px 0;
+    font-size: 0.95em;
+    color: #333;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 70px;
+    }
+    
+    .main-content-dashboard {
+        margin-left: 70px;
+    }
+    
+    .sidebar-nav .nav-item span {
+        display: none;
+    }
+    
+    .data-source-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .welcome-section {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    /* Trong file static/css/style.css của bạn */
+
+    .progress-step-box .step-description {
+        /* Giữ lại các style hiện có của bạn nếu có */
+        font-size: 0.85em; /* Kích thước chữ nhỏ hơn cho dễ nhìn */
+        color: #666;
+        margin-top: 5px;
+        
+        /* CÁC THAY ĐỔI QUAN TRỌNG DƯỚI ĐÂY */
+        max-height: 80px; /* Giới hạn chiều cao để không chiếm quá nhiều chỗ */
+        overflow-y: auto; /* Tạo thanh cuộn dọc nếu nội dung vượt quá chiều cao */
+        white-space: pre-wrap; /* Giúp các ký tự xuống dòng (\n) được hiển thị */
+        word-wrap: break-word; /* Đảm bảo từ dài cũng được ngắt dòng */
+        text-align: left; /* Căn lề trái cho các thông báo */
+        padding: 5px; /* Thêm padding cho nội dung */
+        border-radius: 3px;
+        background-color: rgba(255, 255, 255, 0.4); /* Nền hơi mờ cho khu vực log */
+    }
+
+    /* Đảm bảo icon không bị tràn hoặc gây khó chịu */
+    .progress-step-box .step-icon {
+        display: block; /* Đảm bảo icon nằm trên một dòng riêng */
+        margin-bottom: 5px; /* Khoảng cách giữa icon và mô tả */
+    }
+
+    /* Giữ lại các style đã có cho .progress-step-box, .in-progress, .completed, .error */
+    .progress-step-box {
+        background-color: #f0f0f0;
+        border: 1px solid #ddd;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        transition: all 0.3s ease;
+        padding: 15px; /* Đảm bảo có đủ không gian bên trong */
+        display: flex; /* Dùng flexbox để sắp xếp nội dung */
+        flex-direction: column; /* Xếp các phần tử theo chiều dọc */
+        align-items: center; /* Căn giữa theo chiều ngang */
+        text-align: center; /* Căn giữa văn bản */
+    }
+
+    .progress-step-box.in-progress {
+        background-color: #e0f7fa;
+        border-color: #00bcd4;
+        box-shadow: 0 4px 10px rgba(0,188,212,0.3);
+    }
+
+    .progress-step-box.completed {
+        background-color: #e8f5e9;
+        border-color: #4caf50;
+        box-shadow: 0 4px 10px rgba(76,175,80,0.3);
+    }
+
+    .progress-step-box.error {
+        background-color: #ffebee;
+        border-color: #f44336;
+        box-shadow: 0 4px 10px rgba(244,67,54,0.3);
+    }
+
+    .progress-arrow.completed {
+        background-color: #4caf50;
+    }
+
+
+    /* Quy tắc chung cho tất cả các thẻ select */
+    select {
+        display: block !important; /* hoặc chỉ display: block; */
+        /* ... các thuộc tính khác ... */
+    }
+
+    /* Quy tắc cụ thể cho ID minioFolderSelect */
+    #minioFolderSelect {
+        display: block !important; /* hoặc chỉ display: block; */
+        /* ... các thuộc tính khác ... */
+    }
+
+    /* Quy tắc cho các input hoặc select nói chung */
+    input, select, textarea {
+        display: block !important; /* hoặc chỉ display: block; */
+        /* ... các thuộc tính khác ... */
+    }
+    /* SIDEBAR OVERRIDE - Thêm file này vào cuối HTML để đảm bảo override */
+
+/* Force sidebar width */
+.sidebar {
+    width: 320px !important;
+    min-width: 320px !important;
+    max-width: 320px !important;
+}
+
+/* Force main content margin */
+.main-content-dashboard {
+    margin-left: 320px !important;
+    padding-left: 30px !important;
+}
+
+/* Specific overrides for responsive */
+@media (min-width: 769px) {
+    .sidebar {
+        width: 320px !important;
+    }
+    
+    .main-content-dashboard {
+        margin-left: 320px !important;
+    }
+}
+
+/* Debug styles - Thêm màu để kiểm tra */
+.sidebar {
+    border-right: 5px solid red !important; /* Để kiểm tra xem sidebar có hiển thị không */
+}
+
+.main-content-dashboard {
+    border-left: 5px solid blue !important; /* Để kiểm tra main content */
+}
+    
+}

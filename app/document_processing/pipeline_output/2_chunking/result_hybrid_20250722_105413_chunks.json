@@ -1,0 +1,52 @@
+[
+  {
+    "id": "chunk_93d542e4_0_1753156453759",
+    "content": "HEADER_MARKER Page 1 HEADER_END\n\nTRƯỜNG THPT: TAM NÔNG\nTỔ TOÁN\nHỌ VÀ TÊN GIÁO VIÊN\n\nChương I. MỆNH ĐỀ VÀ TẬP HỢP\nBài 1. Mệnh Đề\nMôn Toán lớp 10\nThời gian thực hiện: (01 tiết). TIẾT 1\nI. Mục tiêu\nNUMLIST_MARKER Năng lực: NUMLIST_END\nLIST_MARKER HS sử dụng các khái niệm, thuật ngữ (mệnh đề, mệnh đề đúng, mệnh đề sai, mệnh đề phủ LIST_END\nđịnh, mệnh đề kéo theo, mệnh đề đảo, hai mệnh đề tương đương, với mọi, tồn tại, định lí, giải\nthiết, kết luận, điều kiện cần, điều kiện đủ, điều kiện cần và đủ), ký hiệu (,\n ,.,\n và  ),.\nđể biểu đạt, tiếp nhận (viết và nói) các ý tưởng, thông tin (trong học tập cũng như trong đời\nthường) một cách rõ ràng, súc tích và chính xác. LIST_MARKER Học sinh phân tích, nhận thức đầy đủ hơn các thành phần cấu trúc cơ bản trong các lập LIST_END\nluận quen thuộc (mệnh đề, phủ định của mệnh đề, đinh lí, giả thiết, kết luận,.)\nLIST_MARKER Tự giải quyết các bài tập ở phần luyện tập.",
+    "metadata": {
+      "chunk_index": 0,
+      "char_count": 914,
+      "word_count": 187,
+      "keywords": [
+        "mệnh_đề",
+        "list_marker",
+        "tiết",
+        "list_end",
+        "kết_luận",
+        "điều_kiện",
+        "cần",
+        "header_marker",
+        "page",
+        "header_end"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.2563387121309634,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  },
+  {
+    "id": "chunk_dfee1d78_1_1753156453764",
+    "content": "LIST_END\nLIST_MARKER Tương tác tích cực của các thành viên trong nhóm khi thực hiện nhiệm vụ. LIST_END\nNUMLIST_MARKER Phẩm chất: NUMLIST_END\nLIST_MARKER Có ý thức hỗ trợ, hợp tác với các thành viên trong nhóm để hoàn thành nhiệm vụ. LIST_END\nLIST_MARKER Có ý thức tôn trọng ý kiến của các thành viên trong nhóm khi hợp tác. LIST_END\nII. Thiết bị dạy học và học liệu\nMáy chiếu, viết bút lông, giấy A0, phiếu học tập, SGK. III. Tiến trình dạy học\nNUMLIST_MARKER Hoạt động 1: Khởi động (5 phút) NUMLIST_END\n Mục tiêu: Từ tình huống quen thuộc, kích thích HS suy nghĩ, tạo sự tò mò và tâm thế bước\nvào bài mới.\n Nội dung:\nH: Xem hình ảnh, yêu cầu học sinh phát biểu định lí theo cách khác?",
+    "metadata": {
+      "chunk_index": 1,
+      "char_count": 687,
+      "word_count": 135,
+      "keywords": [
+        "list_end",
+        "list_marker",
+        "thành_viên",
+        "nhóm",
+        "nhiệm_vụ",
+        "numlist_marker",
+        "numlist_end",
+        "ý_thức",
+        "hợp_tác",
+        "dạy_học"
+      ],
+      "coherence_score": 1.0,
+      "completeness_score": 1.0,
+      "language_confidence": 0.24730713245997085,
+      "chunking_strategy": "hybrid_sentence_aware"
+    }
+  }
+]

@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/web-scarching.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <title>Web Scraper</title>
+    
+   <!-- MODERN PROFESSIONAL SIDEBAR CSS - Giống hệt Data Processing -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8fafc;
+            color: #333;
+            min-height: 100vh;
+        }
+
+        .dashboard-container {
+            display: flex;
+            min-height: 100vh;
+            width: 100%;
+        }
+
+        /* MODERN SIDEBAR DESIGN */
+        .sidebar {
+            width: 320px !important;
+            min-width: 320px !important;
+            max-width: 320px !important;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+            position: fixed !important;
+            left: 0 !important;
+            top: 0 !important;
+            height: 100vh !important;
+            z-index: 1000 !important;
+            box-shadow: 0 10px 40px rgba(102, 126, 234, 0.15) !important;
+            backdrop-filter: blur(10px) !important;
+            border-right: 1px solid rgba(255, 255, 255, 0.1) !important;
+            padding: 0 !important;
+            overflow-y: auto;
+        }
+        
+        .main-content {
+            flex: 1;
+            margin-left: 320px !important;
+            width: calc(100% - 320px) !important;
+            padding: 30px !important;
+            background: #f8fafc !important;
+            min-height: 100vh;
+        }
+        
+        /* MODERN HEADER STYLING */
+        .sidebar-header {
+            text-align: center !important;
+            padding: 35px 20px 30px !important;
+            border-bottom: 1px solid rgba(255,255,255,0.1) !important;
+            position: relative !important;
+            margin-bottom: 0 !important;
+        }
+        
+        .sidebar-header::before {
+            content: '' !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+            background: linear-gradient(45deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05)) !important;
+            border-radius: 0 0 20px 20px !important;
+        }
+        
+        .profile-avatar {
+            width: 60px !important;
+            height: 60px !important;
+            background: rgba(255,255,255,0.2) !important;
+            border-radius: 50% !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            margin: 0 auto 15px !important;
+            font-size: 24px !important;
+            color: white !important;
+            position: relative !important;
+            z-index: 2 !important;
+            transition: transform 0.3s ease !important;
+        }
+        
+        .profile-avatar:hover {
+            transform: scale(1.05) !important;
+        }
+        
+        .sidebar-header h2 {
+            font-size: 1.5em !important;
+            font-weight: 800 !important;
+            letter-spacing: 2px !important;
+            margin-top: 8px !important;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.3) !important;
+            position: relative !important;
+            z-index: 2 !important;
+            background: linear-gradient(45deg, #ffffff, #e8f0fe) !important;
+            -webkit-background-clip: text !important;
+            -webkit-text-fill-color: transparent !important;
+            background-clip: text !important;
+            color: white;
+        }
+        
+        /* MODERN NAVIGATION STYLING */
+        .sidebar-nav ul {
+            padding: 25px 0 !important;
+            margin: 0 !important;
+            list-style: none;
+        }
+        
+        .sidebar-nav .nav-item {
+            display: flex !important;
+            align-items: center !important;
+            color: rgba(255,255,255,0.9) !important;
+            text-decoration: none !important;
+            padding: 16px 25px !important;
+            margin: 4px 15px 4px 0 !important;
+            font-size: 15px !important;
+            font-weight: 600 !important;
+            border-radius: 0 25px 25px 0 !important;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+            position: relative !important;
+            overflow: hidden !important;
+            backdrop-filter: blur(10px) !important;
+        }
+        
+        .sidebar-nav .nav-item::before {
+            content: '' !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: -100% !important;
+            width: 100% !important;
+            height: 100% !important;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent) !important;
+            transition: left 0.6s ease !important;
+        }
+        
+        .sidebar-nav .nav-item:hover::before {
+            left: 100% !important;
+        }
+        
+        .sidebar-nav .nav-item:hover,
+        .sidebar-nav .nav-item.active {
+            background: rgba(255,255,255,0.15) !important;
+            border-right: 4px solid #ffffff !important;
+            transform: translateX(10px) !important;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15) !important;
+            margin-right: 0 !important;
+            color: #ffffff !important;
+        }
+        
+        .sidebar-nav .nav-item:hover {
+            background: rgba(255,255,255,0.12) !important;
+        }
+        
+        .sidebar-nav .nav-item.active {
+            background: rgba(255,255,255,0.2) !important;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.3) !important;
+        }
+        
+        .sidebar-nav .nav-item i {
+            width: 24px !important;
+            font-size: 17px !important;
+            margin-right: 16px !important;
+            text-align: center !important;
+            opacity: 0.9 !important;
+            transition: all 0.3s ease !important;
+        }
+        
+        .sidebar-nav .nav-item:hover i,
+        .sidebar-nav .nav-item.active i {
+            opacity: 1 !important;
+            transform: scale(1.1) !important;
+        }
+        
+        /* MODERN BOTTOM NAVIGATION */
+        .bottom-nav {
+            position: absolute !important;
+            bottom: 25px !important;
+            width: 100% !important;
+            padding: 0 15px !important;
+        }
+        
+        .bottom-nav .nav-item {
+            margin: 4px 15px 4px 0 !important;
+            font-size: 14px !important;
+            padding: 14px 25px !important;
+            opacity: 0.8 !important;
+            border-radius: 0 20px 20px 0 !important;
+        }
+        
+        .bottom-nav .nav-item:hover {
+            opacity: 1 !important;
+            background: rgba(255,255,255,0.1) !important;
+        }
+
+        /* MODERN WELCOME SECTION - Giống Data Processing */
+        .welcome-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%) !important;
+            border-radius: 20px !important;
+            box-shadow: 0 20px 40px rgba(102, 126, 234, 0.15) !important;
+            border: 1px solid rgba(255,255,255,0.1) !important;
+            padding: 40px !important;
+            margin-bottom: 30px !important;
+            display: flex !important;
+            justify-content: space-between !important;
+            align-items: center !important;
+        }
+        
+        .welcome-content h1 {
+            background: linear-gradient(45deg, #ffffff, #f8faff) !important;
+            -webkit-background-clip: text !important;
+            -webkit-text-fill-color: transparent !important;
+            background-clip: text !important;
+            font-weight: 800 !important;
+            text-shadow: none !important;
+            font-size: 2.5em !important;
+            margin-bottom: 10px !important;
+            color: white; /* Fallback */
+        }
+
+        /* Top header bar */
+        .top-header-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 25px;
+            margin-bottom: 25px;
+            background: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            color: #333;
+            width: 100%;
+        }
+
+        .breadcrumb-container {
+            display: flex;
+            align-items: center;
+            font-size: 15px;
+            color: #6c757d;
+        }
+
+        .breadcrumb-item {
+            color: #495057;
+            font-weight: 500;
+        }
+
+        .breadcrumb-separator {
+            margin: 0 8px;
+            color: #adb5bd;
+        }
+
+        .header-icons {
+            display: flex;
+            gap: 15px;
+        }
+
+        .icon-wrapper {
+            width: 38px;
+            height: 38px;
+            background: #e9ecef;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: background 0.3s ease, color 0.3s ease;
+        }
+
+        .icon-wrapper:hover {
+            background: #6c5ce7;
+            color: white;
+        }
+
+        .icon-wrapper i {
+            font-size: 18px;
+            color: #6c757d;
+        }
+
+        .icon-wrapper:hover i {
+            color: white;
+        }
+
+        /* Dashboard grid and cards */
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+            margin-bottom: 25px;
+            width: 100%;
+        }
+
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            border: 1px solid #e9ecef;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            color: #333;
+            transition: box-shadow 0.3s ease;
+            width: 100%;
+        }
+
+        .card:hover {
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .full-width-card {
+            grid-column: 1 / -1;
+            width: 100%;
+        }
+
+        .card h3 {
+            margin-bottom: 20px;
+            font-size: 20px;
+            color: #2c3e50;
+        }
+
+        .chart-container {
+            height: 450px;
+            position: relative;
+        }
+
+        .chart-container canvas {
+            max-height: 100% !important;
+            max-width: 100% !important;
+        }
+        .header.white-frame-header {
+            display: none !important;
+        }
+
+        /* SMOOTH SCROLLBAR */
+        .sidebar::-webkit-scrollbar {
+            width: 6px !important;
+        }
+        
+        .sidebar::-webkit-scrollbar-track {
+            background: rgba(255,255,255,0.1) !important;
+        }
+        
+        .sidebar::-webkit-scrollbar-thumb {
+            background: rgba(255,255,255,0.3) !important;
+            border-radius: 3px !important;
+        }
+        
+        .sidebar::-webkit-scrollbar-thumb:hover {
+            background: rgba(255,255,255,0.5) !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard-container">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="profile-avatar">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h2>EDUMATE ADMIN</h2>
+            </div>
+            <nav class="sidebar-nav">
+                <ul>
+                    <li><a href="/" class="nav-item" onclick="console.log('Clicked Data Processing')"><i class="fas fa-cogs"></i> <span>Data Processing</span></a></li>
+                    <li><a href="/web_scarching.html" class="nav-item active" onclick="console.log('Clicked Web Scraping')"><i class="fas fa-spider"></i> <span>Web Scraping</span></a></li>
+                </ul>
+                <ul class="bottom-nav">
+                    <li><a href="#" class="nav-item"><i class="fas fa-cog"></i> <span>Settings</span></a></li>
+                    <li><a href="#" class="nav-item"><i class="fas fa-sign-out-alt"></i> <span>Logout</span></a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <header class="top-header-bar">
+                <div class="breadcrumb-container">
+                    <span class="breadcrumb-item">Web Scraping</span>
+                </div>
+            
+            </header>
+
+            <!-- MODERN WELCOME SECTION - Giống Data Processing -->
+            <section class="welcome-section">
+                <div class="welcome-content">
+                    <h1>WEB SCRAPING</h1>
+                </div>
+                <div class="welcome-illustration">
+                </div>
+            </section>
+            
+            <!-- Hide old header -->
+            <div class="header white-frame-header">
+                <h1>Welcome back, Dealine!</h1>
+            </div>
+
+            <div class="dashboard-grid">
+                <div class="card">
+                    <h3>📊 Subject Statistics Chart</h3>
+                    <div class="chart-container">
+                        <canvas id="pieChart"></canvas>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>📊 Number of Scraped Websites by Subject and Level</h3>
+                    <div class="chart-container">
+                        <canvas id="barChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card full-width-card">
+                <h3>📁 Upload URL List File</h3>
+                <div class="file-upload-area" id="fileUploadArea">
+                    <div class="upload-icon">📁</div>
+                    <div class="upload-text">Drag and drop your file here or click to select</div>
+                    <input type="file" class="file-input" id="fileInput" accept=".txt,.json,.md">
+                    <button class="btn" onclick="document.getElementById('fileInput').click()">Choose File</button>
+                </div>
+
+                <div class="input-group">
+                    <input type="text" class="input-field" id="singleUrl" placeholder="Enter URL to add to list">
+                    <button class="btn" onclick="addSingleUrl()">Add URL</button>
+                </div>
+            </div>
+            
+            <div class="card full-width-card">
+                <h3>📋 Uploaded URL List</h3>
+                <div class="control-buttons">
+                    <button class="btn" onclick="selectAll()">Select All</button>
+                </div>
+
+                <div class="processing-info" id="processingInfo">
+                    <strong>Processing...</strong>
+                    <div id="processStatus">Processed: 0, Success: 0, Error: 0</div>
+                </div>
+
+                <div class="link-list" id="linkList">
+                    <div class="empty-state">
+                        No URLs uploaded yet
+                    </div>
+                </div>
+
+                <div class="bottom-controls" id="bottomControls" style="display: none;">
+                    <button class="btn btn-danger" onclick="deleteSelected()">Delete Selected</button>
+                    <button class="btn btn-success" onclick="processSelected()">Process Selected</button>
+                </div>
+            </div>
+            
+            <div class="card full-width-card">
+                <h3>🕒 Recent Scraping History</h3>
+                <div class="recent-links" id="recentLinks">
+                    <div class="recent-item">
+                        <div>
+                            <div>https://loigiaihay.com</div>
+                            <div class="recent-time">2 minutes ago</div>
+                        </div>
+                        <div class="status-success">Success</div>
+                    </div>
+                    <div class="recent-item">
+                        <div>
+                            <div>https://vietjack.com</div>
+                            <div class="recent-time">5 minutes ago</div>
+                        </div>
+                        <div class="status-error">Error</div>
+                    </div>
+                    <div class="recent-item">
+                        <div>
+                            <div>https://vndoc.com</div>
+                            <div class="recent-time">10 minutes ago</div>
+                        </div>
+                        <div class="status-success">Success</div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="/static/js/web-scarching.js"></script>
+</body>
+</html>
